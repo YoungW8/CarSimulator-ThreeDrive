@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#15252c">
+  <link rel="icon" href="data:,">
+  <title>City Bus · Свободная езда</title>
+  <script type="module" crossorigin src="./assets/index-BJLAMd3K.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Dn0qooCn.css">
+</head>
+<body>
+  <main id="drive" class="city-view" aria-label="Симулятор автобуса">
+    <div class="hud">
+      <header class="location">
+        <span class="route">Свободная езда</span>
+        <h1>City Bus</h1>
+        <span class="district">Simpligon Pilot</span>
+      </header>
+      <div class="tools">
+        <span class="fps" aria-label="Кадров в секунду"><span id="fps">—</span> FPS</span>
+        <button id="overview" type="button" aria-label="Переключить обзор города" title="Обзор города · M">За руль</button>
+        <button id="camera" type="button" aria-label="Сменить камеру" aria-pressed="false" title="Сменить камеру · C">Кабина</button>
+        <button id="collider" type="button" aria-pressed="false" title="Контур коллайдера · V">Коллайдер</button>
+        <button id="reset" type="button" aria-label="Переместить автобус на ближайшую свободную дорогу" title="Вернуться на дорогу · R">На дорогу</button>
+      </div>
+    </div>
+    <div class="speed" aria-label="Скорость">
+      <div class="readout"><span id="speed">0</span><small>км/ч</small></div>
+      <div class="speed-bar"><span id="speed-fill"></span></div>
+      <span id="gear" class="gear" aria-label="Направление движения">D</span>
+    </div>
+    <div class="keys"><span><kbd>W</kbd><kbd>S</kbd> газ / тормоз и задний ход</span><span><kbd>A</kbd><kbd>D</kbd> руль</span></div>
+    <div class="touch" aria-label="Управление на сенсорном экране">
+      <div><button type="button" data-key="KeyA" aria-label="Руль влево">Влево</button><button type="button" data-key="KeyD" aria-label="Руль вправо">Вправо</button></div>
+      <div><button type="button" data-key="KeyS" aria-label="Тормоз и задний ход">Тормоз</button><button type="button" data-key="KeyW" class="accelerator">Газ</button></div>
+    </div>
+    <div id="loading" class="loading" role="status">Загружаем город…</div>
+  </main>
+</body>
+</html>
