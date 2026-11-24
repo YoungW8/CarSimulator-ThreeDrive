@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#15252c">
   <link rel="icon" href="data:,">
   <title>City Bus</title>
-  <script type="module" crossorigin src="./assets/index-B9hk7jGb.js"></script>
+  <script type="module" crossorigin src="./assets/index-DiRjn1SJ.js"></script>
   <link rel="stylesheet" crossorigin href="./assets/index-wMpVCEOC.css">
 </head>
 <body>
@@ -68,6 +68,11 @@
           <span id="next-stop"></span>
         </div>
         <div id="trip-status" class="sr-only" role="status" hidden></div>
+        <div class="city-objectives">
+          <span data-i18n-title="hud.wallet"><span class="sr-only" data-i18n="hud.wallet">Money</span><b aria-hidden="true">$</b> <strong id="wallet-total">0</strong></span>
+          <span data-i18n-title="hud.coins"><span class="sr-only" data-i18n="hud.coins">Collect coins</span><b aria-hidden="true">🪙</b> <span id="coin-total">0</span>/100</span>
+          <span data-i18n-title="hud.crates"><span class="sr-only" data-i18n="hud.crates">Break crates</span><b aria-hidden="true">📦</b> <span id="crate-total">0</span>/20</span>
+        </div>
       </div></div>
       <div id="trip-notice" class="trip-notice" role="status" hidden></div>
       <div id="route-area" class="route-area" hidden>
@@ -78,13 +83,17 @@
       <div class="vehicle-actions">
         <button id="horn" type="button" aria-keyshortcuts="H" data-i18n-label="hud.horn" data-i18n-title="hud.horn" data-shortcut="H">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-            <path d="M3 9h5l7-5v16l-7-5H3zM8 15l2 5m8-12a7 7 0 0 1 0 8m2-10a10 10 0 0 1 0 12"/>
+            <ellipse cx="4.5" cy="14.5" rx="3" ry="3.8" fill="currentColor"/>
+            <path d="M7.5 13.5h2l1.3 1a3 3 0 0 0 4-4l-1-1.1 2.1-1.5M7.5 15.5h1.2l1 1a5.3 5.3 0 0 0 7.5-7.5"/>
+            <path d="M14.5 7.8c2-.9 3.4-2.6 4.2-4.8l3.8 8.5c-2.1-1-4.2-1.2-6.3-.4z" fill="currentColor"/>
           </svg>
         </button>
         <button id="reset" type="button" data-i18n-label="hud.reset" data-i18n-title="hud.reset" data-shortcut="R"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-reset"/></svg></button>
         <button id="camera" type="button" data-i18n-label="hud.camera" aria-pressed="false" data-i18n-title="hud.camera" data-shortcut="C">
-          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-            <path fill="currentColor" fill-rule="evenodd" d="M8 5.5 9.5 3h5L16 5.5h3.5A2.5 2.5 0 0 1 22 8v10a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 18V8a2.5 2.5 0 0 1 2.5-2.5H8ZM12 8a4.75 4.75 0 1 0 0 9.5A4.75 4.75 0 0 0 12 8Zm0 2a2.75 2.75 0 1 1 0 5.5 2.75 2.75 0 0 1 0-5.5Z"/>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <g class="view-cab"><circle cx="10" cy="13" r="7.3"/><circle cx="10" cy="13" r="1.5"/><path d="m3.2 10.4 5.4 2m8.2-2-5.4 2M10 14.5v5.6"/></g>
+            <g class="view-exterior"><rect x="3" y="5" width="13" height="14" rx="3"/><path d="M3.5 12h12M6 15.5h1m5 0h1M5.5 19v1.5m8-1.5v1.5"/></g>
+            <path d="M14.5 2.5a9 9 0 0 1 7 8M18.5 8l3 3 2-3.5"/>
           </svg>
         </button>
       </div>
