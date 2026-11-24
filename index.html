@@ -1,83 +1,157 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#15252c">
   <link rel="icon" href="data:,">
-  <title>City Bus · Simpligon Pilot</title>
-  <script type="module" crossorigin src="./assets/index-B9F9W2lZ.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-BusPTCOK.css">
+  <title>City Bus</title>
+  <script type="module" crossorigin src="./assets/index-Bhm4iH5H.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-wMpVCEOC.css">
 </head>
 <body>
-  <main id="drive" class="city-view" aria-label="Симулятор автобуса">
+  <svg class="icon-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="icon-gear" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="m10 2-.6 2.5-1.9.8-2.2-1.4-2.4 2.5 1.3 2.2-.8 1.9L1 11v3l2.5.6.8 1.9-1.3 2.2 2.4 2.4 2.2-1.3 1.9.8.6 2.4h3.8l.6-2.4 1.9-.8 2.2 1.3 2.4-2.4-1.3-2.2.8-1.9L23 14v-3l-2.5-.6-.8-1.9L21 6.3l-2.4-2.5-2.2 1.4-1.9-.8L14 2zm2 6a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9Z"/></symbol>
+    <symbol id="icon-reset" viewBox="0 0 24 24"><path d="M20 9a8 8 0 1 0 .2 6M20 3v6h-6" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="icon-bus" viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="18" rx="4" fill="currentColor"/><path d="M7 6h10v6H7z" fill="#203746"/><path d="M7 19v2m10-2v2" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M7 16h2m6 0h2" stroke="#203746" stroke-width="2"/></symbol>
+    <symbol id="icon-pin" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M12 23S3 13.8 3 9a9 9 0 1 1 18 0c0 4.8-9 14-9 14Zm0-18a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z"/></symbol>
+    <symbol id="icon-cup" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M6 5H2v3c0 3 2 5 6 5m10-8h4v3c0 3-2 5-6 5M7 3h10v6c0 8-10 8-10 0zm5 12v5m-5 1h10"/></symbol>
+  </svg>
+  <section id="main-menu" aria-label="City Bus">
+    <div id="menu-actions">
+      <h1 class="game-title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-bus"/></svg> Bus Driver</h1>
+      <button id="play" type="button" data-i18n="menu.play">Play</button>
+    </div>
+    <button id="menu-options" class="settings-button" type="button" data-i18n-label="settings.title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-gear"/></svg></button>
+    <dialog id="menu-options-panel" class="menu-options-panel" aria-labelledby="menu-options-title">
+      <h2 id="menu-options-title" data-i18n="settings.title">Settings</h2>
+      <label id="menu-language">
+        <span data-i18n="menu.language">Language</span>
+        <select id="language">
+          <option value="en" lang="en">English</option>
+          <option value="es" lang="es">Español</option>
+          <option value="tr" lang="tr">Türkçe</option>
+          <option value="de" lang="de">Deutsch</option>
+          <option value="fr" lang="fr">Français</option>
+          <option value="it" lang="it">Italiano</option>
+        </select>
+      </label>
+      <form method="dialog"><button class="primary-action" data-i18n="settings.resume">Continue</button></form>
+    </dialog>
+    <section id="loading" aria-labelledby="loading-title" hidden>
+      <div id="loading-wheel-background" aria-hidden="true"></div>
+      <div id="loading-wheel" aria-hidden="true"></div>
+      <h1 id="loading-title" class="sr-only" data-i18n="loading.title">Loading the route…</h1>
+      <p id="loading-detail" role="status"></p>
+      <div id="loading-line" aria-hidden="true"><span></span></div>
+      <progress id="loading-progress" aria-labelledby="loading-title"></progress>
+      <button id="loading-retry" class="primary-action" type="button" data-i18n="menu.retry" hidden>Retry</button>
+    </section>
+  </section>
+  <main id="drive" tabindex="-1" class="city-view" data-i18n-label="game.label" hidden inert>
     <div class="hud">
+      <section id="trip-minimap" data-i18n-label="hud.map" hidden>
+        <canvas width="288" height="288" role="img" data-i18n-label="hud.mapDescription"></canvas>
+        <span class="minimap-notice" data-i18n="hud.offRoute" hidden>Off route</span>
+      </section>
       <header class="location">
         <h1>City Bus</h1>
       </header>
-      <div class="mission">
-        <span class="route" id="drive-mode">Свободная езда</span>
-        <div id="trip-progress" class="route-progress" role="progressbar" aria-label="Остановки пройдены" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0" hidden>
+      <div class="mission-layout"><div class="mission">
+        <span class="route" id="drive-mode"></span>
+        <div id="trip-progress" class="route-progress" role="progressbar" data-i18n-label="hud.progress" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0" hidden>
           <span id="trip-progress-fill"></span>
         </div>
-        <div id="trip-status" class="trip-status" role="status" hidden></div>
-        <div class="trip-actions">
-          <button id="start-trip" type="button" hidden>Начать рейс</button>
-          <button id="free-drive" type="button" hidden>Свободная езда</button>
+        <span id="trip-count" aria-hidden="true"></span>
+        <div class="stop-line" aria-hidden="true">
+          <span id="stop-caption" data-i18n="hud.nextStop">Next Stop:</span>
+          <span id="next-stop"></span>
         </div>
-      </div>
+        <div id="trip-status" class="sr-only" role="status" hidden></div>
+      </div></div>
       <div id="trip-notice" class="trip-notice" role="status" hidden></div>
-      <div class="tools">
-        <button id="settings" class="settings-button" type="button" aria-label="Настройки" title="Настройки · Esc" hidden></button>
-        <div class="tool-buttons">
-          <span class="fps" aria-label="Кадров в секунду"><span id="fps">—</span> FPS</span>
-          <button id="overview" type="button" aria-label="Переключить обзор города" title="Обзор города · M">За руль</button>
-          <button id="camera" type="button" aria-label="Сменить камеру" aria-pressed="false" title="Сменить камеру · C">Кабина</button>
-          <button id="collider" type="button" aria-pressed="false" title="Контур коллайдера · V">Коллайдер</button>
-          <button id="reset" type="button" aria-label="Переместить автобус на ближайшую свободную дорогу" title="Вернуться на дорогу · R"></button>
-        </div>
-        <section id="trip-minimap" aria-label="Мини-карта рейса" hidden>
-          <canvas width="288" height="288" role="img" aria-label="Положение автобуса, его направление и путь к остановке"></canvas>
-          <span class="minimap-notice" hidden>Вне маршрута</span>
-        </section>
+      <div id="route-area" class="route-area" hidden>
+        <span id="route-area-message" role="status"></span>
+        <button id="route-area-retry" type="button" data-i18n="menu.retry" hidden>Retry</button>
+      </div>
+      <button id="settings" class="settings-button" type="button" data-i18n-label="settings.title" data-i18n-title="settings.title" data-shortcut="Esc" hidden><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-gear"/></svg></button>
+      <div class="vehicle-actions">
+        <button id="horn" type="button" aria-keyshortcuts="H" data-i18n-label="hud.horn" data-i18n-title="hud.horn" data-shortcut="H">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+            <path d="M3 9h5l7-5v16l-7-5H3zM8 15l2 5m8-12a7 7 0 0 1 0 8m2-10a10 10 0 0 1 0 12"/>
+          </svg>
+        </button>
+        <button id="reset" type="button" data-i18n-label="hud.reset" data-i18n-title="hud.reset" data-shortcut="R"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-reset"/></svg></button>
+        <button id="camera" type="button" data-i18n-label="hud.camera" aria-pressed="false" data-i18n-title="hud.camera" data-shortcut="C">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="currentColor" fill-rule="evenodd" d="M8 5.5 9.5 3h5L16 5.5h3.5A2.5 2.5 0 0 1 22 8v10a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 18V8a2.5 2.5 0 0 1 2.5-2.5H8ZM12 8a4.75 4.75 0 1 0 0 9.5A4.75 4.75 0 0 0 12 8Zm0 2a2.75 2.75 0 1 1 0 5.5 2.75 2.75 0 0 1 0-5.5Z"/>
+          </svg>
+        </button>
+      </div>
+      <div class="debug-tools">
+          <span class="fps" data-i18n-label="hud.fps"><span id="fps">—</span> FPS</span>
+          <button id="overview" type="button" data-i18n-title="hud.overview" data-shortcut="M">Drive</button>
+          <button id="collider" type="button" aria-pressed="false" data-i18n="hud.collider" data-i18n-title="hud.collider" data-shortcut="V">Collider</button>
       </div>
     </div>
-    <div class="speed" aria-label="Скорость">
+    <div class="speed" data-i18n-label="hud.speed">
       <span id="speed-fill" aria-hidden="true"></span>
-      <div class="readout"><small>км/ч</small><span id="speed">0</span></div>
-      <span id="gear" class="gear" aria-label="Направление движения">D</span>
+      <div class="readout"><small data-i18n="hud.speedUnit">km/h</small><span id="speed">0</span></div>
+      <span id="gear" class="gear" data-i18n-label="hud.gear">D</span>
     </div>
-    <button id="trip-doors" type="button" aria-keyshortcuts="Space" title="Двери · Пробел" hidden disabled><span class="sr-only">Открыть двери</span></button>
-    <div class="keys"><span><kbd>W</kbd><kbd>S</kbd> газ / тормоз и задний ход</span><span><kbd>A</kbd><kbd>D</kbd> руль</span><span><kbd>Пробел</kbd> двери</span></div>
-    <div class="touch" aria-label="Управление на сенсорном экране">
-      <div><button type="button" data-key="KeyA" aria-label="Руль влево"></button><button type="button" data-key="KeyD" aria-label="Руль вправо"></button></div>
-      <div><button type="button" data-key="KeyS" aria-label="Тормоз и задний ход"></button><button type="button" data-key="KeyW" aria-label="Газ"></button></div>
+    <button id="trip-doors" type="button" aria-keyshortcuts="Space" data-i18n-title="hud.doors" data-shortcut-label="input.space" hidden disabled><span class="sr-only">Open the doors</span><span class="door-key" aria-hidden="true"><span data-i18n="hud.press">Press</span><kbd data-i18n="input.space">Space</kbd></span></button>
+    <div class="touch" data-i18n-label="input.touch">
+      <div><button type="button" data-key="KeyA" data-i18n-label="input.left"></button><button type="button" data-key="KeyD" data-i18n-label="input.right"></button></div>
+      <div><button type="button" data-key="KeyS" data-i18n-label="input.brake"></button><button type="button" data-key="KeyW" data-i18n-label="input.accelerate"></button></div>
     </div>
+    <div id="tutorial-prompt" role="status" hidden><span id="tutorial-keys"></span><span id="tutorial-instruction"></span></div>
+    <div id="tutorial-finger" aria-hidden="true" hidden></div>
     <dialog id="settings-popup" class="popup settings-popup" aria-labelledby="settings-title">
-      <h2 id="settings-title">Настройки</h2>
-      <label class="setting">Графика
+      <div class="pause-card">
+        <h2 id="settings-title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-gear"/></svg><span data-i18n="settings.title">Settings</span></h2>
+        <label class="setting"><span data-i18n="settings.graphics">Graphics</span>
         <select id="graphics-quality">
-          <option value="auto">Авто</option>
-          <option value="low">Низкая</option>
-          <option value="high">Высокая</option>
+          <option value="auto" data-i18n="settings.auto">Auto</option>
+          <option value="low" data-i18n="settings.low">Low</option>
+          <option value="high" data-i18n="settings.high">High</option>
         </select>
-      </label>
-      <button id="resume" class="yellow-button" type="button" autofocus>Продолжить</button>
-      <button id="restart-trip" type="button" hidden>Начать рейс заново</button>
+        </label>
+        <label class="setting"><span data-i18n="settings.effects">Sound effects</span>
+          <input id="effects-volume" type="range" min="0" max="100" step="1">
+        </label>
+        <div class="trip-actions">
+          <button id="roadmap-button" type="button" data-i18n-label="roadmap.title" data-i18n-title="roadmap.title"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-pin"/></svg><span data-i18n="roadmap.title">Progress map</span></button>
+          <button id="restart-trip" type="button" hidden><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-reset"/></svg><span data-i18n="settings.restartShort">Restart</span></button>
+        </div>
+        <button id="resume" class="primary-action" type="button" data-i18n="settings.continue" autofocus>Continue</button>
+      </div>
+      <section id="restart-confirm" hidden>
+        <h2 data-i18n="settings.confirm">Restart?</h2>
+        <button id="restart-yes" type="button" data-i18n="settings.yes">Yes</button>
+        <button id="restart-no" type="button" data-i18n="settings.no">No</button>
+      </section>
     </dialog>
     <dialog id="victory-popup" class="popup victory-popup" aria-labelledby="victory-title">
       <div class="victory-content">
-        <h2 id="victory-title">Рейс завершён</h2>
+        <svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-cup"/></svg>
+        <h2 id="victory-title" data-i18n="results.wellDone">Well Done</h2>
         <p id="victory-route"></p>
         <dl>
-          <div><dt>Остановки</dt><dd id="victory-stops"></dd></div>
-          <div><dt>Пассажиры</dt><dd id="victory-passengers"></dd></div>
+          <div><dt data-i18n="results.stops">Stops</dt><dd id="victory-stops"></dd></div>
+          <div><dt data-i18n="results.passengers">Passengers</dt><dd id="victory-passengers"></dd></div>
         </dl>
-        <button id="repeat-trip" class="yellow-button next-button" type="button" autofocus>Повторить рейс</button>
-        <button id="victory-free-drive" type="button">Свободная езда</button>
+        <p id="victory-load-status" role="status" hidden></p>
+        <button id="next-trip" class="primary-action" type="button" data-i18n="results.next" hidden>Next route</button>
       </div>
     </dialog>
-    <div id="loading" class="loading" role="status">Загружаем город…</div>
+    <dialog id="roadmap-popup" class="popup roadmap-popup" aria-labelledby="roadmap-title">
+      <h2 id="roadmap-title" data-i18n="roadmap.title">Progress map</h2>
+      <div class="roadmap-scroll">
+        <ol id="roadmap-routes"></ol>
+
+      </div>
+      <button id="roadmap-close" type="button" data-i18n="settings.continue" autofocus>Continue</button>
+    </dialog>
   </main>
 </body>
 </html>
