@@ -9192,9 +9192,9 @@
       "files": [
         {
           "url": "route-north-and-west.json",
-          "bytes": 8590,
-          "sha256": "13d04d0b8b3ef8340b5af95d1641e94b9c78985bddf0d099ec7d64fa0af94a15",
-          "gzipBytes": 2202
+          "bytes": 8593,
+          "sha256": "8df7af04df7230d5b2b4bae2c0a522979e0fbe1b69444ed5dbbe0eac7be2211e",
+          "gzipBytes": 2206
         }
       ]
     },
@@ -9204,8 +9204,8 @@
       "files": [
         {
           "url": "route-riverside.json",
-          "bytes": 8619,
-          "sha256": "f80b6ee7ee5440a11fd5ebea40d367a6377c64e0953c665ef3a3fc9789832ddd",
+          "bytes": 8623,
+          "sha256": "727e563545ab58420c93934a6b3d417f414dee829dec1a0af74660a5d789bffb",
           "gzipBytes": 2323
         }
       ]
@@ -9216,9 +9216,9 @@
       "files": [
         {
           "url": "route-cross-town.json",
-          "bytes": 6785,
-          "sha256": "952aa2e3ca15e3c999736c59209d484888cac0a4b6228dc2637a28a5de38919b",
-          "gzipBytes": 2032
+          "bytes": 6786,
+          "sha256": "8671bac7c703603bc051d3683a27deb4616427ec2b645a9227805486365d73cb",
+          "gzipBytes": 2041
         }
       ]
     },
@@ -9228,9 +9228,9 @@
       "files": [
         {
           "url": "route-west-link.json",
-          "bytes": 12141,
-          "sha256": "bc6642ebb17a51876a01b5ceb9b48613474c344616a594b3446e960fc3a4f83e",
-          "gzipBytes": 4672
+          "bytes": 12149,
+          "sha256": "2360b44419c70aa488a748b1cf000fcbf3e1e6a118fa5d432f3edae30bda1a7b",
+          "gzipBytes": 4682
         }
       ]
     },
@@ -9240,9 +9240,9 @@
       "files": [
         {
           "url": "route-west-return.json",
-          "bytes": 17174,
-          "sha256": "b83f1ce99e90c5c34228ff94cbedbe7ba591539cc722c8d16365919dfd7f3c2c",
-          "gzipBytes": 6155
+          "bytes": 17179,
+          "sha256": "44158c9aeb937c4dac6983035382d22ffadd1ed7b9327ea05973da4a56f5b87d",
+          "gzipBytes": 6181
         }
       ]
     },
@@ -9252,9 +9252,9 @@
       "files": [
         {
           "url": "route-south-and-east.json",
-          "bytes": 4555,
-          "sha256": "c6c766a7eefd53eaf515b94d052d103b7bc3d84aaefd001b1491dc9bd41df17e",
-          "gzipBytes": 1443
+          "bytes": 4554,
+          "sha256": "7cb348afb74f5f6b4553863ad5e2a72d2ed385b3484853f7db5f0e1d7587facd",
+          "gzipBytes": 1444
         }
       ]
     },
@@ -9264,9 +9264,9 @@
       "files": [
         {
           "url": "route-east-viaduct.json",
-          "bytes": 8229,
-          "sha256": "a5ae7f0b20f3821dde368217120e4c45a2a960be5afd34c2ad8ffe7f194d1cd1",
-          "gzipBytes": 2003
+          "bytes": 8227,
+          "sha256": "49a8a13c7f6f4670501550d0fdcd6fe64627c678328615f4db40bf4f5708c0ce",
+          "gzipBytes": 2005
         }
       ]
     },
@@ -10169,15 +10169,15 @@
       "files": [
         {
           "url": "starter-geometry-6f.bin",
-          "bytes": 3099932,
-          "sha256": "2e3697273c00816e5ce8c67273d587e310e356758c13239325469326bdb82cb7",
-          "gzipBytes": 956668
+          "bytes": 3028668,
+          "sha256": "fd6148dfeff2b2d235dd7c09b744632d5bd0f1894365e71af5f120072a2895b5",
+          "gzipBytes": 941785
         },
         {
           "url": "starter-geometry-6f.json",
-          "bytes": 20400,
-          "sha256": "766e701ea5c318a049a53a69f1ac99bf3366c2bc668c35d9924236ac6d56454d",
-          "gzipBytes": 3511
+          "bytes": 19885,
+          "sha256": "984a1c0fd3a1d7c0479c9b44f3cc05ae186d6e46710f544c949debdb68e0c97a",
+          "gzipBytes": 3398
         }
       ]
     },
@@ -10205,15 +10205,15 @@
       "files": [
         {
           "url": "starter-geometry-7f.bin",
-          "bytes": 1060156,
-          "sha256": "da0c208ed719134d7030ad379f375589271f51966eabb3d1c33183f732742a0f",
-          "gzipBytes": 427688
+          "bytes": 1131420,
+          "sha256": "34fba9c1dfb7ba5397b6a4eaec8967da69097ace284358a3e67a47c0ba911429",
+          "gzipBytes": 440960
         },
         {
           "url": "starter-geometry-7f.json",
-          "bytes": 7145,
-          "sha256": "7259b93ba79a1633c9181acd9605d62c09648d8307623e5fd45b5cbcf05491b5",
-          "gzipBytes": 1356
+          "bytes": 7655,
+          "sha256": "af2687145171974a4c067eff4453000341a465e04bbee26c7fb4d2ea2a0b1327",
+          "gzipBytes": 1441
         }
       ]
     },
@@ -10266,8 +10266,8 @@
         {
           "url": "start-1.json",
           "bytes": 348247,
-          "sha256": "3f5ee1630b9e377939e9a1e1411b8bc8f10c951b7ae554d387b8b3cc4929c456",
-          "gzipBytes": 40288
+          "sha256": "07248dfe00c85363266566489104c54fb0dd4951d81ec46b04f69d481d4d7777",
+          "gzipBytes": 40289
         }
       ]
     },
@@ -10292,9 +10292,9 @@
       "files": [
         {
           "url": "start-10.json",
-          "bytes": 409960,
-          "sha256": "6168d8b509825aee49a44124d8a25275d275e80331c21eda715e7a170462c002",
-          "gzipBytes": 39998
+          "bytes": 412507,
+          "sha256": "e44eb147d09c5295e7e701e9896ca715e21bb10b69e6f0103a29ce507d1d8e8b",
+          "gzipBytes": 40542
         }
       ]
     },
@@ -10357,9 +10357,9 @@
       "files": [
         {
           "url": "start-2.json",
-          "bytes": 1012661,
-          "sha256": "7b7765a90e73cda76db7886a6495187fb360fe37875f62b8a924541b84eaad29",
-          "gzipBytes": 109992
+          "bytes": 1015136,
+          "sha256": "be0ad1c4e634a10f138125e0c4c39ba98c70ff02a989f6883981e174a96cf07e",
+          "gzipBytes": 110543
         }
       ]
     },
@@ -10504,8 +10504,8 @@
         {
           "url": "start-27.json",
           "bytes": 263298,
-          "sha256": "96bceef87717a35a8b10ec5f66d0d449b74b0db3d2f1e6e7efee2c6cd842a408",
-          "gzipBytes": 27619
+          "sha256": "862c99ee3e330c9f8e82b08c650fb263c8a0da86d3dc7f2c2543b33e86ccf020",
+          "gzipBytes": 27617
         }
       ]
     },
@@ -10604,15 +10604,16 @@
       "index": "start-45.json",
       "dependencies": [
         "city-bus",
+        "passengers",
         "starter-geometry-6f",
         "starter-geometry-7f"
       ],
       "files": [
         {
           "url": "start-45.json",
-          "bytes": 4024,
-          "sha256": "433a2eaeb3d3f9e080ea08d4be98ffb54ea80c754db1842e9fb347905c8dd0dc",
-          "gzipBytes": 1084
+          "bytes": 6619,
+          "sha256": "a1f0580aa48cc6cb41cfb0ac52c8c8ac6976905918fe8821c23d4777e4de9083",
+          "gzipBytes": 1655
         }
       ]
     },
@@ -10641,9 +10642,9 @@
       "files": [
         {
           "url": "start-5.json",
-          "bytes": 538240,
-          "sha256": "484322129e26b607ea8acb753cb0e950eec48ef17f206aaff356e7ccb70c2d83",
-          "gzipBytes": 64784
+          "bytes": 540789,
+          "sha256": "86bb13ad5292830dca7e048dadbcb6ee8d814cb03c6d34df0ffdfc7b97a193c4",
+          "gzipBytes": 65359
         }
       ]
     },
@@ -10674,8 +10675,8 @@
         {
           "url": "start-6.json",
           "bytes": 740063,
-          "sha256": "654381e823504b7b8e86bea61df1e48bc333d1be3172eb4ee9b8f700ea916e85",
-          "gzipBytes": 78522
+          "sha256": "ea74445aa0af0da97ad5e1305a130af6eba0ffbb264b8a56f08c4aff1e7b9add",
+          "gzipBytes": 78521
         }
       ]
     },
@@ -10700,7 +10701,7 @@
         {
           "url": "start-60.json",
           "bytes": 564095,
-          "sha256": "18fa43dc2eafd0991362c6dfd2e8fb51be90705df2ed7759cb9b1724fb5b24bc",
+          "sha256": "5a78120db480fab5068378783ea2dd366a0e0f8b7d2448b57f87be21f14e9254",
           "gzipBytes": 50975
         }
       ]
@@ -10723,9 +10724,9 @@
       "files": [
         {
           "url": "start-61.json",
-          "bytes": 630758,
-          "sha256": "2c09b4c159aa732231b8294bed3f2c02221ffc71b5f808cfc5ecf45ec7040c99",
-          "gzipBytes": 69576
+          "bytes": 638057,
+          "sha256": "7d359dc319837f02babf9a8f3ba40aca6c110c1bd11dda070f6a556b799460be",
+          "gzipBytes": 70571
         }
       ]
     },
@@ -10761,9 +10762,9 @@
       "files": [
         {
           "url": "start-65.json",
-          "bytes": 333008,
-          "sha256": "7c9660af9ea45a9bd291bf33ec2f09cefe00a57e5777dcd3fad838be11a603db",
-          "gzipBytes": 42438
+          "bytes": 335461,
+          "sha256": "236df5effae004aaeae684424acd04e6609a5cebcf8f172ee7d7a94e6b466529",
+          "gzipBytes": 42998
         }
       ]
     },
@@ -10821,6 +10822,7 @@
       "index": "start-7.json",
       "dependencies": [
         "city-bus",
+        "passengers",
         "starter-geometry-27",
         "starter-geometry-67",
         "starter-geometry-6f",
@@ -10833,9 +10835,9 @@
       "files": [
         {
           "url": "start-7.json",
-          "bytes": 49346,
-          "sha256": "1534b1543c34b11ece8c50356832ce09fdf3f5b8071902b5b485179b093ab7db",
-          "gzipBytes": 7281
+          "bytes": 54436,
+          "sha256": "dfcfeda2904c949d715c57294cce83f7af21f9e4db6f4239cc25755e7caf87b4",
+          "gzipBytes": 7964
         }
       ]
     },
@@ -10881,9 +10883,9 @@
       "files": [
         {
           "url": "start-8.json",
-          "bytes": 1247886,
-          "sha256": "61e569382050fb773c6d1bd9d41c1bfbe5a44677fd681228431af6c3c684a1b0",
-          "gzipBytes": 120355
+          "bytes": 1252798,
+          "sha256": "c446f7f9435518eafd6e547d20a9b029096ad5cc5176a756f8e823817f1a759c",
+          "gzipBytes": 121279
         }
       ]
     },
@@ -10924,8 +10926,8 @@
         {
           "url": "start-c.json",
           "bytes": 312408,
-          "sha256": "a2f8049d03a58985ad458388212293d122fc132374df4ea1152390ab91cacd37",
-          "gzipBytes": 33153
+          "sha256": "cf0740908a07e23eea4f500ce90461d6e77d9b2a7797c3ea7cb8f03eb9a502c6",
+          "gzipBytes": 33155
         }
       ]
     },
@@ -11021,7 +11023,7 @@
         {
           "url": "approach-10.json",
           "bytes": 443341,
-          "sha256": "12a9d516ac8c891e2248ef223acc84c0ad2d8ec5944488673f07ca22618ed9a7",
+          "sha256": "ee2c485c8ddcf14af4028554355eeb4c9edfadac9c6344376a593db1f72af194",
           "gzipBytes": 39505
         }
       ]
@@ -11072,9 +11074,9 @@
         },
         {
           "url": "approach-2.json",
-          "bytes": 857219,
-          "sha256": "b75bbd1d737cebd02f1e9b5012f8097bd7e9dff07da1051b8bce331fc919b31f",
-          "gzipBytes": 89109
+          "bytes": 862002,
+          "sha256": "4708d5c64c83f5e0999fdb1823b330369ea9fa5252b379e439c41a7d3afca835",
+          "gzipBytes": 89983
         }
       ]
     },
@@ -11212,9 +11214,9 @@
         },
         {
           "url": "approach-25.json",
-          "bytes": 142260,
-          "sha256": "134d7aae9a1326b4b63fe4e89e1698cb1f2a7067d46b6dc7094c0ee2a99ce26b",
-          "gzipBytes": 17997
+          "bytes": 144836,
+          "sha256": "1cd9b0d32797422bcf4807cc6c053c45c34c29e80ae41108786cc4457e7700e2",
+          "gzipBytes": 18567
         }
       ]
     },
@@ -11348,9 +11350,9 @@
         },
         {
           "url": "approach-60.json",
-          "bytes": 231954,
-          "sha256": "9e762c531adf2a15d0d8208861f9b81d3cff83e0aab1135bf74c3f682067089c",
-          "gzipBytes": 26994
+          "bytes": 234530,
+          "sha256": "dc2c2ca70549a326934bbc30e9f3b3d934eed954950a341dfe55ceb4689ba930",
+          "gzipBytes": 27559
         }
       ]
     },
@@ -11383,8 +11385,8 @@
         {
           "url": "approach-61.json",
           "bytes": 58887,
-          "sha256": "a539cec214599cb0eff9c8985ca424d1b70833d03c75f198597c625009a027a5",
-          "gzipBytes": 8118
+          "sha256": "867dd92a4687749f7444be9cc63956a9720711e4c0c986ed15ad6aa2f51f13e4",
+          "gzipBytes": 8117
         }
       ]
     },
@@ -11457,9 +11459,9 @@
         },
         {
           "url": "approach-8.json",
-          "bytes": 451411,
-          "sha256": "9b0f83b3555f8793c3b00b070211cd2a946c5f8fba3111da5a3406fa54a3b246",
-          "gzipBytes": 54744
+          "bytes": 453924,
+          "sha256": "c6dc074ee8d4523e345340ddb514bd49b662b64b92f6562c66a94f4102d25f4b",
+          "gzipBytes": 55352
         }
       ]
     },
@@ -11670,6 +11672,7 @@
       "index": "corridor-18.json",
       "dependencies": [
         "city-bus",
+        "passengers",
         "starter-geometry-7f",
         "starter-geometry-8",
         "starter-materials"
@@ -11683,9 +11686,9 @@
         },
         {
           "url": "corridor-18.json",
-          "bytes": 10306,
-          "sha256": "a442c7da518c52c86ab584cf6332a0a5e81a078bc23fc9b49dc7469f75782a4b",
-          "gzipBytes": 1381
+          "bytes": 22554,
+          "sha256": "4710852550e539d8f37e7c2b9dd67ce10464641ae3b16b2e4c61d1e3f742ff6a",
+          "gzipBytes": 3875
         }
       ]
     },
@@ -11757,7 +11760,7 @@
         {
           "url": "corridor-2.json",
           "bytes": 750240,
-          "sha256": "aeac654270a3769ff8b94f9baa956ab023aa2e653e8d5d6898a560deedd9087c",
+          "sha256": "ad3daead8d97911ca868f91bdb7f6be4fa61320bbea4fede5ad32b565f69e5bd",
           "gzipBytes": 71534
         },
         {
@@ -11813,9 +11816,9 @@
         },
         {
           "url": "corridor-40.json",
-          "bytes": 5238401,
-          "sha256": "16c4d262a090208ed001afc9d2fe275154d318a9e360641b340f6ff46f3b90a1",
-          "gzipBytes": 388372
+          "bytes": 5245924,
+          "sha256": "1b7e81c8ea42593f3a8f7662b938cb11713f90b3eff9428a68589c0256f27d9c",
+          "gzipBytes": 389361
         },
         {
           "url": "textures/f82deba9d42ca904f9929144d4acae28.png",
@@ -11926,8 +11929,8 @@
         {
           "url": "world-view.json",
           "bytes": 6254081,
-          "sha256": "ac8f8b9bcb39d45ed86fe4cdf56f362858f451f1b0c9208b2ed5ac98fc0c4ffc",
-          "gzipBytes": 635166
+          "sha256": "a732124fd3f9b7bfa618eed2c8891e75264f247ec8baac4165c4fdde614119cb",
+          "gzipBytes": 635165
         },
         {
           "url": "textures/edc6d7f313d4e134ab772be31f0d0d92.png",
@@ -12162,6 +12165,6 @@
       ]
     }
   },
-  "buildId": "0586e227bb9a6e02dd5d",
-  "packageBase": "versions/0586e227bb9a6e02dd5d/"
+  "buildId": "04cc3fde397aaa62e8b8",
+  "packageBase": "versions/04cc3fde397aaa62e8b8/"
 }
