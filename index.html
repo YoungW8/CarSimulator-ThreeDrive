@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#302142">
   <link rel="icon" href="data:,">
   <title>City Bus</title>
-  <script type="module" crossorigin src="./assets/index-D_xJSTs3.js"></script>
+  <script type="module" crossorigin src="./assets/index-C3SBH1pK.js"></script>
   <link rel="stylesheet" crossorigin href="./assets/index-CXn9ecQ-.css">
 </head>
 <body>
@@ -165,10 +165,11 @@
   </section>
   <main id="drive" tabindex="-1" class="city-view" data-i18n-label="game.label" hidden inert>
     <div class="hud">
-      <section id="trip-minimap" data-i18n-label="hud.map" hidden>
+      <button type="button" id="trip-minimap" aria-haspopup="dialog" aria-controls="city-map" data-i18n-label="map.open" data-i18n-title="map.open" hidden>
         <canvas width="288" height="288" role="img" data-i18n-label="hud.mapDescription"></canvas>
+        <span class="minimap-expand" aria-hidden="true">⛶</span>
         <span class="minimap-notice" data-i18n="hud.offRoute" hidden>Off route</span>
-      </section>
+      </button>
       <header class="location">
         <h1>City Bus</h1>
       </header>
@@ -243,6 +244,19 @@
     </div>
     <div id="tutorial-prompt" role="status" hidden><span id="tutorial-keys"></span><span id="tutorial-instruction"></span></div>
     <div id="tutorial-finger" aria-hidden="true" hidden></div>
+    <dialog id="city-map" aria-labelledby="city-map-title">
+      <canvas role="img" data-i18n-label="hud.mapDescription"></canvas>
+      <header class="city-map-title">
+        <h2 id="city-map-title" data-i18n="hud.overview">City overview</h2>
+        <span id="city-map-stop"></span>
+      </header>
+      <button type="button" class="city-map-close" data-i18n-label="map.close" data-i18n-title="map.close" autofocus>×</button>
+      <div class="city-map-zoom">
+        <button type="button" data-zoom="in" data-i18n-label="map.zoomIn" data-i18n-title="map.zoomIn">+</button>
+        <button type="button" data-zoom="out" data-i18n-label="map.zoomOut" data-i18n-title="map.zoomOut">−</button>
+      </div>
+      <button type="button" class="city-map-retry" data-i18n="menu.retry" hidden>Retry</button>
+    </dialog>
     <dialog id="settings-popup" class="popup settings-popup" aria-labelledby="settings-title">
       <div class="pause-card">
         <h2 id="settings-title" class="illustrated-heading"><svg aria-hidden="true"><use href="#art-menu"/></svg><span data-i18n="settings.title">Settings</span></h2>
