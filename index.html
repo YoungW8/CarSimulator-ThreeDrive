@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#302142">
   <link rel="icon" href="data:,">
   <title>City Bus</title>
-  <script type="module" crossorigin src="./assets/index-C5bc4gy5.js"></script>
+  <script type="module" crossorigin src="./assets/index-D9p605RU.js"></script>
   <link rel="stylesheet" crossorigin href="./assets/index-CXn9ecQ-.css">
 </head>
 <body>
@@ -193,6 +193,10 @@
         <span data-i18n-title="hud.wallet"><span class="sr-only" data-i18n="hud.wallet">Money</span><svg aria-hidden="true" class="objective-icon"><use href="#art-wallet"/></svg> <strong id="wallet-total">0</strong></span>
         <span data-i18n-title="hud.coins"><span class="sr-only" data-i18n="hud.coins">Collect coins</span><svg aria-hidden="true" class="objective-icon"><use href="#art-coin"/></svg> <span id="coin-total">0</span>/100</span>
         <span data-i18n-title="hud.crates"><span class="sr-only" data-i18n="hud.crates">Break crates</span><svg aria-hidden="true" class="objective-icon"><use href="#art-crate"/></svg> <span id="crate-total">0</span>/20</span>
+      </div>
+      <div id="pickup-feed" aria-hidden="true">
+        <span class="objective-pickup" data-pickup="coin" hidden><svg aria-hidden="true"><use href="#art-coin"/></svg><b></b></span>
+        <span class="objective-pickup" data-pickup="crate" hidden><svg aria-hidden="true"><use href="#art-crate"/></svg><b></b></span>
       </div>
       <div id="trip-notice" class="trip-notice" role="status" hidden></div>
       <div id="route-area" class="route-area" hidden>
