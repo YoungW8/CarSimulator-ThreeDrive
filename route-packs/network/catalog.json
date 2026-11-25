@@ -10358,8 +10358,8 @@
         {
           "url": "start-2.json",
           "bytes": 1015136,
-          "sha256": "be0ad1c4e634a10f138125e0c4c39ba98c70ff02a989f6883981e174a96cf07e",
-          "gzipBytes": 110543
+          "sha256": "607542092681ea9517859aa06f1622bd3b473a3b0538f7393f3af310a01975bb",
+          "gzipBytes": 110531
         }
       ]
     },
@@ -11074,9 +11074,9 @@
         },
         {
           "url": "approach-2.json",
-          "bytes": 862002,
-          "sha256": "4708d5c64c83f5e0999fdb1823b330369ea9fa5252b379e439c41a7d3afca835",
-          "gzipBytes": 89983
+          "bytes": 861999,
+          "sha256": "fc1c44276a40c3fd57f54ca1a99784fafa6b875714b15a979d81f1239d9ca0be",
+          "gzipBytes": 89968
         }
       ]
     },
@@ -11753,15 +11753,15 @@
       "files": [
         {
           "url": "corridor-2.bin",
-          "bytes": 9809240,
-          "sha256": "f1173b7775d8e8497f9b370f8256cf8b6af02aa247bf089dd86774b84bd9ecb3",
-          "gzipBytes": 2428046
+          "bytes": 9522888,
+          "sha256": "03a87e25dc1b6f6450252f3f32820fa48c9caedc1967c187a2014d2617b3db87",
+          "gzipBytes": 2340542
         },
         {
           "url": "corridor-2.json",
-          "bytes": 750240,
-          "sha256": "ad3daead8d97911ca868f91bdb7f6be4fa61320bbea4fede5ad32b565f69e5bd",
-          "gzipBytes": 71534
+          "bytes": 747113,
+          "sha256": "bdcaf96bb56f7d65c524e0eba1ac7ca17d6526b8a199139ddff4342fdcf9fc58",
+          "gzipBytes": 70877
         },
         {
           "url": "textures/1e87d110b7eb91b44873cfff27328c25.png",
@@ -11922,15 +11922,15 @@
       "files": [
         {
           "url": "world-view.bin",
-          "bytes": 14344040,
-          "sha256": "b72ffab80794c023071df6c79aefb3e8cbf5209189cc8d70932d2f9ce911535d",
-          "gzipBytes": 3796117
+          "bytes": 14630392,
+          "sha256": "f2361ccb08982c80953c29e05eb850a3c036fb1a5b398b0e622f2b5bcd2434f7",
+          "gzipBytes": 3886428
         },
         {
           "url": "world-view.json",
-          "bytes": 6254948,
-          "sha256": "d29fc87a1ddff1b0280fac5cfb954f56c370dafaa07a22ea584c4583c642aa88",
-          "gzipBytes": 635344
+          "bytes": 6255906,
+          "sha256": "b95b28726b93d6539a032f58357bd9b0f9ed20a256370837ab03d865a7283feb",
+          "gzipBytes": 635500
         },
         {
           "url": "textures/edc6d7f313d4e134ab772be31f0d0d92.png",
@@ -12165,6 +12165,6 @@
       ]
     }
   },
-  "buildId": "88560878e2ca24a08cc0",
-  "packageBase": "versions/88560878e2ca24a08cc0/"
+  "buildId": "942c9fd1940862780d8b",
+  "packageBase": "versions/942c9fd1940862780d8b/"
 }
