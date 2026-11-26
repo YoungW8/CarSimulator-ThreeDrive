@@ -10005,9 +10005,9 @@
       "files": [
         {
           "url": "starter-materials.json",
-          "bytes": 8379,
-          "sha256": "53a0c6569a9bb7b44b733e5bacadc6bf87d90499ed1d375db652d78be0701068",
-          "gzipBytes": 1284
+          "bytes": 10792,
+          "sha256": "89101055bf6822f14bdc48eb9c3fa283a1b3c24aa3f2bcbc4d05e0ef1d476312",
+          "gzipBytes": 1749
         },
         {
           "url": "textures/72e3093080584b5b8c3e9f5d72a83f12.png",
@@ -10235,15 +10235,15 @@
       "files": [
         {
           "url": "starter-geometry-8.bin",
-          "bytes": 5623348,
-          "sha256": "28cbfebb286a297940dc1ead345ca454da65164f361f05689074b12ae3b57861",
-          "gzipBytes": 1592730
+          "bytes": 5671436,
+          "sha256": "c8d6277e94112865d5bb067a2c4a4ce74cdce2ebd110c87b626e3b71e6f2e4d8",
+          "gzipBytes": 1608414
         },
         {
           "url": "starter-geometry-8.json",
-          "bytes": 18613,
-          "sha256": "44c5e0afa6e80c1adc2bf37cd30239f289cc5e1397155689d0dfd93b23c2b02e",
-          "gzipBytes": 3336
+          "bytes": 19945,
+          "sha256": "b73e83ee481418243aa95bdbb2a7318a316c0348277371333c9f4c9f553cf336",
+          "gzipBytes": 3556
         }
       ]
     },
@@ -11447,9 +11447,9 @@
       "files": [
         {
           "url": "start-8.json",
-          "bytes": 932893,
-          "sha256": "28f5377de5c01330d41dab1ba21ddb3e76fa6753b8d9b9dfa1f8860731ed7661",
-          "gzipBytes": 95497
+          "bytes": 949707,
+          "sha256": "f02e1d83836d528441fd236f48090c4f5eb6ac82c81f99eb6a4cd50a39252e6d",
+          "gzipBytes": 101429
         }
       ]
     },
@@ -11966,9 +11966,9 @@
         },
         {
           "url": "approach-8.json",
-          "bytes": 246833,
-          "sha256": "9606fa34be9ec0fbd3f475e18e5e8e04ee2fde77ac93fe738d8e0f03632fe35b",
-          "gzipBytes": 38628
+          "bytes": 247296,
+          "sha256": "4c4c2e1c8e09e5a8d82358535c238c81bf44bfc048051e971c221b3e310285e6",
+          "gzipBytes": 38833
         }
       ]
     },
@@ -12162,15 +12162,15 @@
       "files": [
         {
           "url": "corridor-18.bin",
-          "bytes": 1134100,
-          "sha256": "925a0f000d1ac965af10631528af99cb746fad4a68839fad2db88133582f3e9e",
-          "gzipBytes": 306388
+          "bytes": 1228268,
+          "sha256": "bbe739415161f4f8bac0fa849ad8f48bda277cbc12b445df50d008a988f5af90",
+          "gzipBytes": 330535
         },
         {
           "url": "corridor-18.json",
-          "bytes": 695807,
-          "sha256": "09902d73910d26af4286741869746f43a5bb68850a46267db93fcfc583993781",
-          "gzipBytes": 74085
+          "bytes": 921306,
+          "sha256": "6d6db91ad40339dd92973ccb7e6243df14be352584b055c928cef5ee3f5b13e7",
+          "gzipBytes": 151117
         },
         {
           "url": "textures/b3c7030edb17fe743b926469b5d25a45.png",
@@ -12188,7 +12188,8 @@
         "starter-geometry-67",
         "starter-geometry-6f",
         "starter-geometry-8",
-        "starter-geometry-c"
+        "starter-geometry-c",
+        "starter-materials"
       ],
       "files": [
         {
@@ -12199,9 +12200,9 @@
         },
         {
           "url": "corridor-1d.json",
-          "bytes": 6143,
-          "sha256": "11a1f48bf935dd4c6f098bd5b1f1b947681e0f10b0f9584074375d0ba4671336",
-          "gzipBytes": 1760
+          "bytes": 9291,
+          "sha256": "8208cad8db422568d2a4d7625a118e3db23ecc6dde9e7cd233931863354de3ae",
+          "gzipBytes": 2860
         }
       ]
     },
@@ -12290,15 +12291,15 @@
       "files": [
         {
           "url": "corridor-40.bin",
-          "bytes": 24644884,
-          "sha256": "b5d0c5d6a0e2c4bc104a1963f730bac3042c27f809a9ae21fc1b6623dcc9b25f",
-          "gzipBytes": 6488737
+          "bytes": 24634052,
+          "sha256": "cc289154f7e874ae62072b1780d4686e27b17c4816113838fd89fbc361212911",
+          "gzipBytes": 6487664
         },
         {
           "url": "corridor-40.json",
-          "bytes": 4863804,
-          "sha256": "ad44d9b0134816faf7026c34efc419e15e5338f0134252b461fe1a8684dab6f3",
-          "gzipBytes": 337810
+          "bytes": 4863377,
+          "sha256": "42174244973cb46c7c1a27ae97a8a45c1987cdf0af12a3d15b18cb7d2ed71f0f",
+          "gzipBytes": 337749
         },
         {
           "url": "textures/f82deba9d42ca904f9929144d4acae28.png",
@@ -12661,6 +12662,6 @@
       ]
     }
   },
-  "buildId": "dd1efb46a07434c1eaca",
-  "packageBase": "versions/dd1efb46a07434c1eaca/"
+  "buildId": "c2096543037f2d1ae948",
+  "packageBase": "versions/c2096543037f2d1ae948/"
 }
