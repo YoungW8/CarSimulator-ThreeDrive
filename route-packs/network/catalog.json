@@ -34,7 +34,9 @@
         "start-61",
         "start-65",
         "start-67",
-        "start-7"
+        "start-7",
+        "start-9",
+        "start-d"
       ],
       "approach": [
         "start-26",
@@ -51,8 +53,6 @@
         "approach-5",
         "approach-61",
         "approach-65",
-        "approach-9",
-        "approach-d",
         "road-events"
       ],
       "prefetch": [
@@ -65,7 +65,6 @@
         "approach-a",
         "approach-c",
         "corridor-1",
-        "corridor-15",
         "corridor-1d",
         "corridor-5"
       ],
@@ -1167,7 +1166,9 @@
           "start-61",
           "start-65",
           "start-67",
-          "start-7"
+          "start-7",
+          "start-9",
+          "start-d"
         ]
       },
       "world": [
@@ -1222,17 +1223,15 @@
         "start-41",
         "start-45",
         "start-8",
+        "start-9",
         "start-c",
-        "approach-1",
+        "start-d",
         "approach-20",
         "approach-25",
         "approach-40",
-        "approach-5",
         "approach-60",
         "approach-65",
-        "approach-9",
         "approach-c",
-        "approach-d",
         "corridor-2"
       ],
       "coverage": {
@@ -2465,13 +2464,14 @@
       },
       "world": [
         "start-10",
+        "approach-1",
         "approach-10",
         "approach-21",
+        "approach-5",
         "approach-61",
         "approach-8",
         "corridor-1",
         "corridor-10",
-        "corridor-15",
         "corridor-18",
         "corridor-1d",
         "corridor-40",
@@ -2501,7 +2501,8 @@
         "start-66",
         "start-67",
         "start-7",
-        "start-c"
+        "start-c",
+        "start-d"
       ],
       "approach": [
         "start-1",
@@ -2513,11 +2514,11 @@
         "start-60",
         "start-61",
         "start-8",
+        "start-9",
         "approach-25",
         "approach-5",
         "approach-65",
         "approach-c",
-        "approach-d",
         "road-events"
       ],
       "prefetch": [
@@ -2525,8 +2526,6 @@
         "approach-21",
         "approach-61",
         "approach-8",
-        "approach-9",
-        "corridor-15",
         "corridor-1d",
         "corridor-5"
       ],
@@ -3536,7 +3535,8 @@
           "start-66",
           "start-67",
           "start-7",
-          "start-c"
+          "start-c",
+          "start-d"
         ]
       },
       "world": [
@@ -3568,9 +3568,12 @@
       "starter": [
         "map-surfaces",
         "start-8",
-        "start-c"
+        "start-9",
+        "start-c",
+        "start-d"
       ],
       "approach": [
+        "start-1",
         "start-2",
         "start-25",
         "start-4",
@@ -3578,10 +3581,8 @@
         "start-6",
         "start-7",
         "approach-8",
-        "approach-9",
         "approach-a",
         "approach-c",
-        "approach-d",
         "road-events"
       ],
       "prefetch": [
@@ -5522,11 +5523,12 @@
           "traffic",
           "map-surfaces",
           "start-8",
-          "start-c"
+          "start-9",
+          "start-c",
+          "start-d"
         ]
       },
       "world": [
-        "start-1",
         "start-20",
         "start-22",
         "start-26",
@@ -5552,7 +5554,6 @@
         "approach-65",
         "corridor-1",
         "corridor-10",
-        "corridor-15",
         "corridor-2",
         "corridor-40",
         "corridor-5",
@@ -5596,20 +5597,16 @@
         "start-67",
         "start-7",
         "start-8",
+        "start-9",
         "start-c",
-        "approach-1",
+        "start-d",
         "approach-2",
         "approach-20",
         "approach-22",
-        "approach-25",
-        "approach-5",
         "approach-8",
-        "approach-9",
         "approach-a",
         "approach-c",
-        "approach-d",
         "corridor-10",
-        "corridor-15",
         "corridor-18",
         "corridor-1d"
       ],
@@ -8019,8 +8016,11 @@
         ]
       },
       "world": [
+        "approach-1",
         "approach-21",
+        "approach-25",
         "approach-40",
+        "approach-5",
         "approach-60",
         "approach-61",
         "approach-65",
@@ -8062,7 +8062,7 @@
         "start-5",
         "start-6",
         "start-7",
-        "start-c",
+        "start-d",
         "approach-20",
         "approach-21",
         "approach-22",
@@ -8707,18 +8707,17 @@
       "world": [
         "start-10",
         "start-8",
+        "start-9",
+        "start-c",
         "approach-1",
         "approach-10",
         "approach-2",
         "approach-40",
         "approach-8",
-        "approach-9",
         "approach-a",
         "approach-c",
-        "approach-d",
         "corridor-1",
         "corridor-10",
-        "corridor-15",
         "corridor-18",
         "corridor-1d",
         "corridor-2",
@@ -9735,7 +9734,9 @@
         "start-6",
         "start-7",
         "start-8",
+        "start-9",
         "start-c",
+        "start-d",
         "approach-1",
         "approach-10",
         "approach-2",
@@ -9745,13 +9746,10 @@
         "approach-25",
         "approach-5",
         "approach-8",
-        "approach-9",
         "approach-a",
         "approach-c",
-        "approach-d",
         "corridor-1",
         "corridor-10",
-        "corridor-15",
         "corridor-18",
         "corridor-1d",
         "corridor-2",
@@ -10107,15 +10105,15 @@
       "files": [
         {
           "url": "starter-geometry-1.bin",
-          "bytes": 1251316,
-          "sha256": "007145d3bf6090d130061a4edbe80adec124a724364c9b24635e34d13f2f18be",
-          "gzipBytes": 338939
+          "bytes": 5246660,
+          "sha256": "04cc7aff30ecd84e7ac84e80df909eafeae134655f72bd8d816a8b7c02152207",
+          "gzipBytes": 1433440
         },
         {
           "url": "starter-geometry-1.json",
-          "bytes": 7279,
-          "sha256": "5cda4b05e2a96bb2cea4f3d6a34b22c20c5a0723f73a92d2474ec1d8b81152cf",
-          "gzipBytes": 1369
+          "bytes": 27749,
+          "sha256": "25b123a6f26c437823677d5975de1074ea668e774f9c338c431a8e1b27270658",
+          "gzipBytes": 4725
         }
       ]
     },
@@ -10125,15 +10123,15 @@
       "files": [
         {
           "url": "starter-geometry-2.bin",
-          "bytes": 5406376,
-          "sha256": "651d72e515987b4f202da9135172547db6adc2518ff81496225123ce7a315796",
-          "gzipBytes": 1458715
+          "bytes": 4432176,
+          "sha256": "0497ec8b29b9e30f8038b39544cbca589c0e136adfb50f33418d54e654f91548",
+          "gzipBytes": 1150918
         },
         {
           "url": "starter-geometry-2.json",
-          "bytes": 28627,
-          "sha256": "049753399217743390347fce445b98a60372b00c89ba38d108da688fde906c44",
-          "gzipBytes": 4824
+          "bytes": 23065,
+          "sha256": "60c9bda9012b0599e1aecb5aa42ebfa42340e2247f18206a49c4993842fc94d8",
+          "gzipBytes": 3892
         }
       ]
     },
@@ -10143,15 +10141,15 @@
       "files": [
         {
           "url": "starter-geometry-3.bin",
-          "bytes": 1120900,
-          "sha256": "c7d9b00924bf810ce982d99a68738e76a93e4fbad95733d5971dfd71e801dfe3",
-          "gzipBytes": 336208
+          "bytes": 2095100,
+          "sha256": "5f52fbe46b2bcbc73b4e46db5228cdb9e66378ef5f5ff71f4c55e36921e5ef54",
+          "gzipBytes": 644237
         },
         {
           "url": "starter-geometry-3.json",
-          "bytes": 5129,
-          "sha256": "22233b180ef1da873b1b2dec23a0ea4244203ed8e645f1180a94ad81036f733e",
-          "gzipBytes": 980
+          "bytes": 10691,
+          "sha256": "c8711d41d9dacead9ceeadb9e799e7f30c0625e3befde13a4aea7d25b2a65cd7",
+          "gzipBytes": 1888
         }
       ]
     },
@@ -10161,15 +10159,15 @@
       "files": [
         {
           "url": "starter-geometry-4.bin",
-          "bytes": 945912,
-          "sha256": "b3204f063dbb2e10d57a220eaa1cf63cf662ca13f9bae39a44000e135a2cc93e",
-          "gzipBytes": 256913
+          "bytes": 832192,
+          "sha256": "c17e62b82c4c8cea6ac40bb1837707a5f18f6c779816454dcb21e8db40e77442",
+          "gzipBytes": 220885
         },
         {
           "url": "starter-geometry-4.json",
-          "bytes": 7287,
-          "sha256": "90b0b9025a5877220ce8eb86859d983c98a3e0febadbe4ce4bcac4a00c513363",
-          "gzipBytes": 1339
+          "bytes": 6345,
+          "sha256": "843b2bb14ffea8f16a966e6e2531f9a28d4a56854d4194a95ddded38fac9f7e1",
+          "gzipBytes": 1176
         }
       ]
     },
@@ -10179,15 +10177,15 @@
       "files": [
         {
           "url": "starter-geometry-5.bin",
-          "bytes": 2127080,
-          "sha256": "40ed8eecde4698c069bc04c586bb4592671dc6522cef05b131b9baa265ec8473",
-          "gzipBytes": 558779
+          "bytes": 2240800,
+          "sha256": "79e1524f29ca32b58525434a4648e564d7c67ff2f4366e00b9995fb89dc0b10d",
+          "gzipBytes": 594474
         },
         {
           "url": "starter-geometry-5.json",
-          "bytes": 12316,
-          "sha256": "dfc0bc977f71e9445898a9233360e52e984611763447cf0c29e96fe6e8520040",
-          "gzipBytes": 2220
+          "bytes": 13268,
+          "sha256": "9896dc8b4bc462707582172fad7852253ba1d825c8e363a1aab17e162d0c1b5a",
+          "gzipBytes": 2375
         }
       ]
     },
@@ -10197,15 +10195,15 @@
       "files": [
         {
           "url": "starter-geometry-6.bin",
-          "bytes": 622756,
-          "sha256": "974c8c6ab0ce549c4443b29492be5f18d2683fa46bff646c26a8747f0310c71d",
-          "gzipBytes": 173478
+          "bytes": 611972,
+          "sha256": "ea00925e99a33115043bf2b16a8f6a3a46ab59e30764dd733794593131b843f4",
+          "gzipBytes": 171219
         },
         {
           "url": "starter-geometry-6.json",
-          "bytes": 2451,
-          "sha256": "ddb769a8380581aa252ecb48612daabc7295b609d17a66c9c6f6017098818629",
-          "gzipBytes": 592
+          "bytes": 2212,
+          "sha256": "8e554098037342d24f0912c43d9aa946a02cc2eef05fcfbc75dee9d6b63402d4",
+          "gzipBytes": 554
         }
       ]
     },
@@ -10217,15 +10215,15 @@
       "files": [
         {
           "url": "starter-geometry-7.bin",
-          "bytes": 179316,
-          "sha256": "c6193c4712147948fde48564cbcdc6f0b28133f47d3622cabc403c2531abfd33",
-          "gzipBytes": 49973
+          "bytes": 190100,
+          "sha256": "107e8fa0151d84cae8fa7f910034f130b25e1b5a29fef9be2776cd5f984ddff3",
+          "gzipBytes": 52103
         },
         {
           "url": "starter-geometry-7.json",
-          "bytes": 2742,
-          "sha256": "41fbe77bafa467c5173eeedee7b7972783766ec0ad9d7acd4d5a7e95801e3fae",
-          "gzipBytes": 601
+          "bytes": 2981,
+          "sha256": "f3e7614d99bb3695723f51408f97561072a73eae6f16a2c45e0d1923756ed0cf",
+          "gzipBytes": 642
         }
       ]
     },
@@ -10235,15 +10233,33 @@
       "files": [
         {
           "url": "starter-geometry-8.bin",
-          "bytes": 5671436,
-          "sha256": "c8d6277e94112865d5bb067a2c4a4ce74cdce2ebd110c87b626e3b71e6f2e4d8",
-          "gzipBytes": 1608414
+          "bytes": 2953896,
+          "sha256": "7512d03449e796f3e91a0a40ea3ad77ea0018f42ad7ce0035dffdda9ad2596fe",
+          "gzipBytes": 853225
         },
         {
           "url": "starter-geometry-8.json",
-          "bytes": 19945,
-          "sha256": "b73e83ee481418243aa95bdbb2a7318a316c0348277371333c9f4c9f553cf336",
-          "gzipBytes": 3556
+          "bytes": 12382,
+          "sha256": "da5692662096d52ac7643b7d1bdf6318ab334b8970c5325c70d20817955373d4",
+          "gzipBytes": 2291
+        }
+      ]
+    },
+    "starter-geometry-9": {
+      "index": "starter-geometry-9.json",
+      "dependencies": [],
+      "files": [
+        {
+          "url": "starter-geometry-9.bin",
+          "bytes": 2825780,
+          "sha256": "bf3127a4cec47c00e1093b839df7e3d0b20a202038fc922d398f5fe31f18d009",
+          "gzipBytes": 793043
+        },
+        {
+          "url": "starter-geometry-9.json",
+          "bytes": 8282,
+          "sha256": "a1fdb8b5651407f24c6cdbeec2d587b3c6909747fdce2f0a5b06381f840ac905",
+          "gzipBytes": 1597
         }
       ]
     },
@@ -10253,15 +10269,15 @@
       "files": [
         {
           "url": "starter-geometry-c.bin",
-          "bytes": 3297112,
-          "sha256": "3ddb781c0bbd0ec834c45623f79382aad95cab689fd8540861bc66c50ac23163",
-          "gzipBytes": 891335
+          "bytes": 1141508,
+          "sha256": "ff81d8381feab297fc0e738886c921ad77e63ea2f1871c4e8b138a7dd3c83f51",
+          "gzipBytes": 326169
         },
         {
           "url": "starter-geometry-c.json",
-          "bytes": 14629,
-          "sha256": "75efb6f56bdd04d21ee0468e66c149499423e6880470056f3da61d992ae5965b",
-          "gzipBytes": 2582
+          "bytes": 5097,
+          "sha256": "555d463c14aa9b4c6bbff3c11bf83ee396020c9eb910efc3bb1b2b1e001518fc",
+          "gzipBytes": 1024
         }
       ]
     },
@@ -10271,15 +10287,15 @@
       "files": [
         {
           "url": "starter-geometry-d.bin",
-          "bytes": 205564,
-          "sha256": "b0b9ff8512e782a1a663393456a5236d82a671bdbb42fe03af3f75b3533072e2",
-          "gzipBytes": 60186
+          "bytes": 2361168,
+          "sha256": "9e36831d24f103e3edd2e1ce53301043004dbd407f9f38fc71ad81c2284d48fa",
+          "gzipBytes": 625662
         },
         {
           "url": "starter-geometry-d.json",
-          "bytes": 2788,
-          "sha256": "1c5e59c05beba9a33210926a30c95c518e97e31d33c891cddd6f9da120e95d03",
-          "gzipBytes": 648
+          "bytes": 12258,
+          "sha256": "ca825bf234b811e6b942173c0b31dc503b70f84ea7315da571ac2e2be3afb671",
+          "gzipBytes": 2195
         }
       ]
     },
@@ -10361,33 +10377,33 @@
       "files": [
         {
           "url": "starter-geometry-18.bin",
-          "bytes": 873944,
-          "sha256": "6fd43a60ed5f980310953850f88c4d45a8243b13439ed6ff8d45a0d40a65f51f",
-          "gzipBytes": 283599
+          "bytes": 555056,
+          "sha256": "fc8734e065e74b883b755a5a73b0e332998c8b9aff141123747193138dda1582",
+          "gzipBytes": 186202
         },
         {
           "url": "starter-geometry-18.json",
-          "bytes": 3951,
-          "sha256": "a4791aa38d65e024882089b64283e09a681c7c3e24875d935b3cc08c5b247ab7",
-          "gzipBytes": 838
+          "bytes": 2419,
+          "sha256": "88609b72f0055050d0ce4194b641b2ba5cb7450cf372bc142110f649dab84208",
+          "gzipBytes": 571
         }
       ]
     },
-    "starter-geometry-1a": {
-      "index": "starter-geometry-1a.json",
+    "starter-geometry-19": {
+      "index": "starter-geometry-19.json",
       "dependencies": [],
       "files": [
         {
-          "url": "starter-geometry-1a.bin",
-          "bytes": 150784,
-          "sha256": "7b973eb1a9140ad7648b4d473e3b23a5f7aaf071f7441e8b30cfe7614b421afb",
-          "gzipBytes": 49007
+          "url": "starter-geometry-19.bin",
+          "bytes": 334756,
+          "sha256": "8490e9005ef3d475dc47f0bd948b665932d735aa1263341469a719882ff02541",
+          "gzipBytes": 101776
         },
         {
-          "url": "starter-geometry-1a.json",
-          "bytes": 842,
-          "sha256": "037993700ed855a9d1a008baaa8b386d0c73dd502384695e9be8f160ed2c3abb",
-          "gzipBytes": 306
+          "url": "starter-geometry-19.json",
+          "bytes": 1891,
+          "sha256": "6f3ff6d1136644d9643d9165202b943bda8e287110dff0dc8f4167726e859064",
+          "gzipBytes": 510
         }
       ]
     },
@@ -10397,15 +10413,15 @@
       "files": [
         {
           "url": "starter-geometry-1d.bin",
-          "bytes": 633572,
-          "sha256": "dcf4630c4ca0bbb2001b45f9595b4c907881d77a0446f2a8321314c464f76b59",
-          "gzipBytes": 219693
+          "bytes": 709464,
+          "sha256": "6206dbab4bc5facccf4c0559fbd9a7f36693af0557febffdfe8ec6f1bd4569d6",
+          "gzipBytes": 242102
         },
         {
           "url": "starter-geometry-1d.json",
-          "bytes": 1649,
-          "sha256": "ffbe36e9c6b0ded85659eb012b2df86936896bbb0b1c6142c38ce2d53435ebc9",
-          "gzipBytes": 459
+          "bytes": 2295,
+          "sha256": "2a115893c1da0ef751f6222c13aa8a6a12453a61a72584670dea8dc3eb033250",
+          "gzipBytes": 568
         }
       ]
     },
@@ -10417,15 +10433,15 @@
       "files": [
         {
           "url": "starter-geometry-1e.bin",
-          "bytes": 302240,
-          "sha256": "04a36ba408946a0ba7ecd78e955ceb24af7fae738098bddbf4d7e89045cfce07",
-          "gzipBytes": 85238
+          "bytes": 263288,
+          "sha256": "18b559c2ea7467a00e431632d8857bee6b00a6889d90c30204ac0c2310847a9f",
+          "gzipBytes": 72203
         },
         {
           "url": "starter-geometry-1e.json",
-          "bytes": 1686,
-          "sha256": "a0b648a02606fdade11f847d1849185430f996e692fdecaa55c4c0b01cef8557",
-          "gzipBytes": 456
+          "bytes": 1446,
+          "sha256": "a941f71f41dfc12671dcc6a9faa0ef479f470e182366856ddac62f5381a748c9",
+          "gzipBytes": 412
         }
       ]
     },
@@ -10489,15 +10505,15 @@
       "files": [
         {
           "url": "starter-geometry-26.bin",
-          "bytes": 1747792,
-          "sha256": "0d12a4906075b782636b4f30b0b32883818c56ed2c71ec75413ef68a423962d2",
-          "gzipBytes": 472075
+          "bytes": 1643472,
+          "sha256": "36c3ffde0b661795e50711e0104694da6bfde07c0295c51c20a56ad11832356a",
+          "gzipBytes": 435555
         },
         {
           "url": "starter-geometry-26.json",
-          "bytes": 6187,
-          "sha256": "6b905a2861ada2f13e190e524d9ca48cba16887960b45dcdfbb323489c94f6c8",
-          "gzipBytes": 1200
+          "bytes": 5708,
+          "sha256": "0be0b34ef82ef409f3a3706e0a0544568c1778fa8ddf2379ba2ae0780ad24125",
+          "gzipBytes": 1131
         }
       ]
     },
@@ -10507,33 +10523,15 @@
       "files": [
         {
           "url": "starter-geometry-27.bin",
-          "bytes": 1822176,
-          "sha256": "e2eef3deeb178ee421f2ee29b784bbd8454ededc0705266568cf4475662607df",
-          "gzipBytes": 493860
+          "bytes": 1926496,
+          "sha256": "fff8b343e2f1d5cf2ae75fe889648b081259155cd815519adb7edae54a568075",
+          "gzipBytes": 529627
         },
         {
           "url": "starter-geometry-27.json",
-          "bytes": 6700,
-          "sha256": "3cd593b92d6a6a1d2ef808c19d2e51ee98e8e639ab40c3ca2d2449427197743c",
-          "gzipBytes": 1308
-        }
-      ]
-    },
-    "starter-geometry-2e": {
-      "index": "starter-geometry-2e.json",
-      "dependencies": [],
-      "files": [
-        {
-          "url": "starter-geometry-2e.bin",
-          "bytes": 179324,
-          "sha256": "3c6bd3bdf0a9a6f148abd8edea3d9ab63ec92c7c4b0199214efbffa7a2fd73d5",
-          "gzipBytes": 64259
-        },
-        {
-          "url": "starter-geometry-2e.json",
-          "bytes": 1168,
-          "sha256": "b0a5b1f9a52807b4ed93f5271d52b1fce0eb370d9df99fa8e3299016e39581a1",
-          "gzipBytes": 375
+          "bytes": 7181,
+          "sha256": "9fe2809447f92698514570acb3b53858b65af9127c9b8ef2b86f7a16307e4263",
+          "gzipBytes": 1383
         }
       ]
     },
@@ -10545,15 +10543,15 @@
       "files": [
         {
           "url": "starter-geometry-2f.bin",
-          "bytes": 773668,
-          "sha256": "0c87b48a917d979494bd61df148774051ddd305e62f552599acd7c1e0f795af6",
-          "gzipBytes": 241632
+          "bytes": 933584,
+          "sha256": "6f47bf57d3917bfe02540820e634a99f9f9f69f9a8e14df76facbd8689ede569",
+          "gzipBytes": 297885
         },
         {
           "url": "starter-geometry-2f.json",
-          "bytes": 4394,
-          "sha256": "68f192b1f6c390d5b2ae120c1b0ef8462d9083475035daf8655807c81ae8c486",
-          "gzipBytes": 965
+          "bytes": 5041,
+          "sha256": "33969e4da3b29c2411899333e6bf105248581c9d17881dbdd7d5aee794d46821",
+          "gzipBytes": 1067
         }
       ]
     },
@@ -10583,15 +10581,15 @@
       "files": [
         {
           "url": "starter-geometry-40.bin",
-          "bytes": 5643572,
-          "sha256": "21f225909a824e6276512f3442256c2d91439f2a6a9cdd077db8821f33dbe438",
-          "gzipBytes": 1494608
+          "bytes": 5632004,
+          "sha256": "d978ae670c936de6431b800cd7e702ab401ccff2bb59953aa31bdb7a723c3000",
+          "gzipBytes": 1491839
         },
         {
           "url": "starter-geometry-40.json",
-          "bytes": 9899,
-          "sha256": "4a7abce4f6d9db32df478e4785fc3a393a2e0cb61e4c6d7301ac152c20963e36",
-          "gzipBytes": 1713
+          "bytes": 9615,
+          "sha256": "5660d92ab866562ee8c53f144d50dd52c37eb2bf448d62b16a8a5076b522f5a4",
+          "gzipBytes": 1661
         }
       ]
     },
@@ -10601,15 +10599,15 @@
       "files": [
         {
           "url": "starter-geometry-41.bin",
-          "bytes": 931364,
-          "sha256": "7c76619b1c3b01eb3fa001d671ba567c1faa91578eeec490a1e245d66186a45a",
-          "gzipBytes": 225639
+          "bytes": 942932,
+          "sha256": "38fd1542c60e56269aeb5cd9f59aed65d4bdcfbf69a0944d6a744d5054bfdd75",
+          "gzipBytes": 228907
         },
         {
           "url": "starter-geometry-41.json",
-          "bytes": 4810,
-          "sha256": "94cb069e8e2a3bf9d337e51d3f36837032a708e9ef9fa4d585f071b38dddd025",
-          "gzipBytes": 940
+          "bytes": 5089,
+          "sha256": "abfde761a8e3c297bf0c3cf8eb73ee6472e02caaf29858f61dabb48dd0ddd7af",
+          "gzipBytes": 983
         }
       ]
     },
@@ -10767,15 +10765,15 @@
       "files": [
         {
           "url": "starter-geometry-6f.bin",
-          "bytes": 381564,
-          "sha256": "c61139d397a22d91ca7f9dacb7bc2db01e0533d78a10c781afe4a7622ac2e913",
-          "gzipBytes": 125084
+          "bytes": 449748,
+          "sha256": "7ec35db8b96d2aa9a4b0437df7eb3341fc1fb1f64288bd5e440d44278fcddfcc",
+          "gzipBytes": 147515
         },
         {
           "url": "starter-geometry-6f.json",
-          "bytes": 3195,
-          "sha256": "904df7acc4ebacd350e37ede99c162e4414c60da6bce4b835c72b4684fcd122c",
-          "gzipBytes": 738
+          "bytes": 3435,
+          "sha256": "1e7bc36fe8144c5055bb5912b8bcfcfaff14a6552cab671576a0c1dc8502bf1f",
+          "gzipBytes": 780
         }
       ]
     },
@@ -10862,15 +10860,15 @@
       "files": [
         {
           "url": "starter-small-geometry.bin",
-          "bytes": 778352,
-          "sha256": "ffc7a6cde157d6a5b31481003b2a71933680024547e52a09da808890980229be",
-          "gzipBytes": 228362
+          "bytes": 719312,
+          "sha256": "c9a902a2d68bb043378f2b6bb9b172f6a69856180a0d6c4e407422915de9fc6d",
+          "gzipBytes": 207906
         },
         {
           "url": "starter-small-geometry.json",
-          "bytes": 10797,
-          "sha256": "bcf555fb04c8d10bce5257062eee7a5bca270e1ee05bed3f1fcb91b15641160e",
-          "gzipBytes": 1980
+          "bytes": 10384,
+          "sha256": "89a1b5f2672e9432b44c86798909a6c766236c575cc758dabcb1c433cda0a353",
+          "gzipBytes": 1883
         }
       ]
     },
@@ -10896,18 +10894,22 @@
         "city-bus",
         "passengers",
         "starter-geometry-1",
+        "starter-geometry-19",
         "starter-geometry-1d",
         "starter-geometry-27",
         "starter-geometry-2f",
         "starter-geometry-3",
         "starter-geometry-3f",
+        "starter-geometry-41",
         "starter-geometry-5",
         "starter-geometry-65",
         "starter-geometry-67",
         "starter-geometry-6f",
         "starter-geometry-7",
+        "starter-geometry-71",
         "starter-geometry-77",
         "starter-geometry-7f",
+        "starter-geometry-9",
         "starter-geometry-d",
         "starter-geometry-f",
         "starter-materials",
@@ -10917,9 +10919,9 @@
       "files": [
         {
           "url": "start-1.json",
-          "bytes": 171178,
-          "sha256": "fec13e4b209b1b5ad5db6de0b8a32c48b8d5f1e8040e6cc3fa9a1476cdb3d853",
-          "gzipBytes": 25801
+          "bytes": 673068,
+          "sha256": "533a71d10955b92cd899884e5eecf7d74e213137838df61e2ceb72aeff3a889d",
+          "gzipBytes": 82871
         }
       ]
     },
@@ -10931,7 +10933,7 @@
         "starter-geometry-10",
         "starter-geometry-16",
         "starter-geometry-18",
-        "starter-geometry-1a",
+        "starter-geometry-19",
         "starter-geometry-1d",
         "starter-geometry-1e",
         "starter-geometry-3f",
@@ -10948,8 +10950,8 @@
         {
           "url": "start-10.json",
           "bytes": 335457,
-          "sha256": "08567d7da07efdf7c7c7d4a45fae3619eb59d8dfe2e0de5f5f3449b0ae30cebd",
-          "gzipBytes": 45573
+          "sha256": "cfc488f544dd0fea5f2e85c28c12e76f732c7009a9a450dbd4ea4fd74790551b",
+          "gzipBytes": 45574
         }
       ]
     },
@@ -10958,8 +10960,6 @@
       "dependencies": [
         "city-bus",
         "passengers",
-        "starter-geometry-1a",
-        "starter-geometry-1e",
         "starter-geometry-2",
         "starter-geometry-26",
         "starter-geometry-27",
@@ -10980,9 +10980,9 @@
       "files": [
         {
           "url": "start-2.json",
-          "bytes": 546935,
-          "sha256": "5caaba162ac1c00e919a80703f3f985799fee89fcb32729552f7aa9e04550de4",
-          "gzipBytes": 73305
+          "bytes": 546947,
+          "sha256": "a03fd1a84704abcf582a9139a8506b0831d3a0f5dc25e3b5b53db35b19bdd0a1",
+          "gzipBytes": 73296
         }
       ]
     },
@@ -10994,7 +10994,7 @@
         "starter-geometry-20",
         "starter-geometry-22",
         "starter-geometry-25",
-        "starter-geometry-26",
+        "starter-geometry-27",
         "starter-geometry-60",
         "starter-geometry-61",
         "starter-geometry-62",
@@ -11013,8 +11013,8 @@
         {
           "url": "start-20.json",
           "bytes": 135699,
-          "sha256": "bfe7521e24fed7ec95fa1c5dddb66d10b3bd2dfc54349dc9390dbd365c16ff5e",
-          "gzipBytes": 17789
+          "sha256": "59ee91950a3d3aa8db32f38300dfe88250b1bb41ce2e313cfb56d86423eb517c",
+          "gzipBytes": 17788
         }
       ]
     },
@@ -11077,7 +11077,6 @@
         "passengers",
         "starter-geometry-26",
         "starter-geometry-27",
-        "starter-geometry-2e",
         "starter-geometry-2f",
         "starter-geometry-3f",
         "starter-geometry-67",
@@ -11091,9 +11090,9 @@
       "files": [
         {
           "url": "start-26.json",
-          "bytes": 204784,
-          "sha256": "b0926a9a91b2b205786e03bd6a3ecc380080f9486f142ce2a7c28536f78cc82b",
-          "gzipBytes": 23424
+          "bytes": 204787,
+          "sha256": "03e6dd1f1f364250e7c3b37821ee8a0ff5f380d9525b97cacd1d18b137f9372d",
+          "gzipBytes": 23420
         }
       ]
     },
@@ -11126,20 +11125,16 @@
         "city-bus",
         "passengers",
         "starter-geometry-1d",
-        "starter-geometry-26",
         "starter-geometry-27",
-        "starter-geometry-2e",
         "starter-geometry-2f",
         "starter-geometry-3f",
         "starter-geometry-4",
         "starter-geometry-5",
-        "starter-geometry-6",
         "starter-geometry-65",
         "starter-geometry-67",
         "starter-geometry-6f",
         "starter-geometry-77",
         "starter-geometry-7f",
-        "starter-geometry-c",
         "starter-geometry-d",
         "starter-materials",
         "starter-small-geometry",
@@ -11148,9 +11143,9 @@
       "files": [
         {
           "url": "start-4.json",
-          "bytes": 257673,
-          "sha256": "a892624b4e46a72f6df5fbbf9165bd860d16eebfda4b4e364100618115dbaa41",
-          "gzipBytes": 32404
+          "bytes": 114871,
+          "sha256": "8aecda7446aba485120bd6a917653846d7c1a0c03a7561a8d60aad74467e4c1b",
+          "gzipBytes": 18048
         }
       ]
     },
@@ -11160,6 +11155,7 @@
         "city-bus",
         "passengers",
         "starter-geometry-40",
+        "starter-geometry-41",
         "starter-geometry-50",
         "starter-geometry-60",
         "starter-geometry-61",
@@ -11178,7 +11174,7 @@
         {
           "url": "start-40.json",
           "bytes": 243277,
-          "sha256": "d37bbe23ea2a1995064e5cb7bc27fe05a02821dc80fc3e41331f4faa5f801f1a",
+          "sha256": "346ae72c18b03cf267d8da7605297e71d5dfc78713ff01290e3f6cda58703d73",
           "gzipBytes": 31299
         }
       ]
@@ -11249,9 +11245,9 @@
       "files": [
         {
           "url": "start-5.json",
-          "bytes": 314723,
-          "sha256": "24b059fb1a313c11eedb03d803298fc5d86670a8f8dcbf36e16aefda59c41709",
-          "gzipBytes": 47034
+          "bytes": 457228,
+          "sha256": "42ceaac89220fecfe832b741427d716431a86c783bc2f1324fdfda6e7362be52",
+          "gzipBytes": 60211
         }
       ]
     },
@@ -11264,7 +11260,6 @@
         "starter-geometry-1e",
         "starter-geometry-26",
         "starter-geometry-27",
-        "starter-geometry-2e",
         "starter-geometry-2f",
         "starter-geometry-3f",
         "starter-geometry-6",
@@ -11282,8 +11277,8 @@
       "files": [
         {
           "url": "start-6.json",
-          "bytes": 507984,
-          "sha256": "a4db134d8b34cca985a0945d04474ec7df445fb0b537d61b94a63e72b093d70d",
+          "bytes": 507993,
+          "sha256": "fa34b5c3b29c333d92357954716050738bc88d58b3fa893c8de9e52a0bdfc919",
           "gzipBytes": 61586
         }
       ]
@@ -11310,9 +11305,9 @@
       "files": [
         {
           "url": "start-60.json",
-          "bytes": 311049,
-          "sha256": "959817338f48569853b7d998d3efcbe426a49d5dd82864f8c184a10b2faf74d7",
-          "gzipBytes": 34892
+          "bytes": 311046,
+          "sha256": "8a322092158de274c61460a5b1da9ada60dc6b2ab4f69b9dbb00a93a7ae72eb3",
+          "gzipBytes": 34890
         }
       ]
     },
@@ -11425,10 +11420,9 @@
         "city-bus",
         "passengers",
         "starter-geometry-18",
-        "starter-geometry-1a",
+        "starter-geometry-19",
         "starter-geometry-1d",
         "starter-geometry-1e",
-        "starter-geometry-2e",
         "starter-geometry-2f",
         "starter-geometry-3f",
         "starter-geometry-49",
@@ -11436,6 +11430,7 @@
         "starter-geometry-6f",
         "starter-geometry-7f",
         "starter-geometry-8",
+        "starter-geometry-9",
         "starter-geometry-c",
         "starter-geometry-d",
         "starter-geometry-e",
@@ -11447,9 +11442,36 @@
       "files": [
         {
           "url": "start-8.json",
-          "bytes": 949707,
-          "sha256": "f02e1d83836d528441fd236f48090c4f5eb6ac82c81f99eb6a4cd50a39252e6d",
-          "gzipBytes": 101429
+          "bytes": 752299,
+          "sha256": "36c3d4c03925ddf8797de766e6443dbc52792a7b637343e6c82a5d3f383fb248",
+          "gzipBytes": 84560
+        }
+      ]
+    },
+    "start-9": {
+      "index": "start-9.json",
+      "dependencies": [
+        "city-bus",
+        "passengers",
+        "starter-geometry-19",
+        "starter-geometry-1d",
+        "starter-geometry-2f",
+        "starter-geometry-3f",
+        "starter-geometry-6f",
+        "starter-geometry-7f",
+        "starter-geometry-9",
+        "starter-geometry-d",
+        "starter-geometry-f",
+        "starter-materials",
+        "starter-small-geometry",
+        "traffic"
+      ],
+      "files": [
+        {
+          "url": "start-9.json",
+          "bytes": 200070,
+          "sha256": "52253656adcbaba432fb829d8319a9c2e60c5b9f9451eb3d2898b2769f2d834d",
+          "gzipBytes": 19143
         }
       ]
     },
@@ -11459,14 +11481,12 @@
         "city-bus",
         "passengers",
         "starter-geometry-1d",
-        "starter-geometry-2e",
         "starter-geometry-2f",
         "starter-geometry-3f",
         "starter-geometry-6f",
         "starter-geometry-7f",
         "starter-geometry-c",
         "starter-geometry-d",
-        "starter-geometry-f",
         "starter-materials",
         "starter-small-geometry",
         "traffic"
@@ -11474,9 +11494,27 @@
       "files": [
         {
           "url": "start-c.json",
-          "bytes": 250799,
-          "sha256": "0089ccca29d74b57b08c7025dd14104561f0a57561039d381d00537301dbe2e8",
-          "gzipBytes": 27889
+          "bytes": 214866,
+          "sha256": "941f6a80c2b80f2432e6804540e143020ac5aa0bb357b7ac0cada6730a491f6e",
+          "gzipBytes": 24654
+        }
+      ]
+    },
+    "start-d": {
+      "index": "start-d.json",
+      "dependencies": [
+        "city-bus",
+        "starter-geometry-2f",
+        "starter-geometry-d",
+        "starter-geometry-f",
+        "starter-materials"
+      ],
+      "files": [
+        {
+          "url": "start-d.json",
+          "bytes": 36131,
+          "sha256": "02b6917df90dea4b3d675d908bc4d26fa10c46f95d22c624eee89b50f3a8ab94",
+          "gzipBytes": 3857
         }
       ]
     },
@@ -11485,14 +11523,11 @@
       "dependencies": [
         "city-bus",
         "passengers",
+        "starter-geometry-1",
         "starter-geometry-10",
         "starter-geometry-18",
-        "starter-geometry-1a",
+        "starter-geometry-19",
         "starter-geometry-1d",
-        "starter-geometry-1e",
-        "starter-geometry-26",
-        "starter-geometry-27",
-        "starter-geometry-2e",
         "starter-geometry-2f",
         "starter-geometry-3f",
         "starter-geometry-5",
@@ -11501,7 +11536,7 @@
         "starter-geometry-77",
         "starter-geometry-7f",
         "starter-geometry-8",
-        "starter-geometry-c",
+        "starter-geometry-9",
         "starter-geometry-d",
         "starter-geometry-f",
         "starter-materials",
@@ -11511,15 +11546,15 @@
       "files": [
         {
           "url": "approach-1.bin",
-          "bytes": 2902696,
-          "sha256": "efac962329f3ed95bab2eafe0b82d949b6f423fad99bd19051e7f6e81a86a633",
-          "gzipBytes": 816545
+          "bytes": 308608,
+          "sha256": "32f3b2a0a652165760e089a9b10f5faca412d75d697af307c75d2ce815ab445a",
+          "gzipBytes": 92107
         },
         {
           "url": "approach-1.json",
-          "bytes": 314629,
-          "sha256": "050d376e241acf2a68429d9c67affdf3e344e72e6641bee904491538a5b132c3",
-          "gzipBytes": 40993
+          "bytes": 104160,
+          "sha256": "51d04e1f5ac599bc0207f0e6159cfaa35456a2b2f30c264efb6040d8b0331f31",
+          "gzipBytes": 15335
         }
       ]
     },
@@ -11529,12 +11564,11 @@
         "city-bus",
         "passengers",
         "starter-geometry-18",
-        "starter-geometry-1a",
+        "starter-geometry-19",
         "starter-geometry-1d",
-        "starter-geometry-1e",
-        "starter-geometry-2",
         "starter-geometry-27",
         "starter-geometry-2f",
+        "starter-geometry-3",
         "starter-geometry-3f",
         "starter-geometry-61",
         "starter-geometry-65",
@@ -11543,6 +11577,7 @@
         "starter-geometry-77",
         "starter-geometry-7f",
         "starter-geometry-8",
+        "starter-geometry-9",
         "starter-geometry-f",
         "starter-materials",
         "starter-small-geometry",
@@ -11557,21 +11592,21 @@
         },
         {
           "url": "approach-10.json",
-          "bytes": 189277,
-          "sha256": "94cad1c0dfc5688b150869b244e6ba8d2bc38e173905836a44181879433f001c",
-          "gzipBytes": 23492
+          "bytes": 189285,
+          "sha256": "113fc67ceb6dbf009f4a7a4cd3c161b2a2586b6be99cb0be2fdb55b7947ee879",
+          "gzipBytes": 23490
         }
       ]
     },
     "approach-2": {
       "index": "approach-2.json",
       "dependencies": [
-        "approach-1",
         "city-bus",
         "passengers",
+        "starter-geometry-1",
         "starter-geometry-10",
         "starter-geometry-18",
-        "starter-geometry-1a",
+        "starter-geometry-19",
         "starter-geometry-1d",
         "starter-geometry-2",
         "starter-geometry-20",
@@ -11594,7 +11629,7 @@
         "starter-geometry-77",
         "starter-geometry-7f",
         "starter-geometry-8",
-        "starter-geometry-c",
+        "starter-geometry-9",
         "starter-geometry-d",
         "starter-geometry-f",
         "starter-materials",
@@ -11610,9 +11645,9 @@
         },
         {
           "url": "approach-2.json",
-          "bytes": 456092,
-          "sha256": "4682d0bc1680972c99113eaa7f223f15159a6d22afddd59009e31b179b676db9",
-          "gzipBytes": 59207
+          "bytes": 456096,
+          "sha256": "94051cf476179278349b439f7280fb0524020414be3986e9189105ddc86458cc",
+          "gzipBytes": 59214
         }
       ]
     },
@@ -11654,7 +11689,6 @@
         "passengers",
         "starter-geometry-1",
         "starter-geometry-10",
-        "starter-geometry-1a",
         "starter-geometry-1d",
         "starter-geometry-27",
         "starter-geometry-3f",
@@ -11677,9 +11711,9 @@
         },
         {
           "url": "approach-21.json",
-          "bytes": 66768,
-          "sha256": "3bf14f1a7f35a60442e7b8820b057c424ce7e4e723657911c63e10334092bdcc",
-          "gzipBytes": 10045
+          "bytes": 66771,
+          "sha256": "5d6d9fd823a8008b0033396df162d36075b9fcdbcf9cc254e4de5d6ddab5d4b3",
+          "gzipBytes": 10041
         }
       ]
     },
@@ -11712,17 +11746,11 @@
         "starter-geometry-1",
         "starter-geometry-10",
         "starter-geometry-1d",
-        "starter-geometry-2e",
         "starter-geometry-2f",
         "starter-geometry-3f",
-        "starter-geometry-40",
         "starter-geometry-5",
-        "starter-geometry-65",
         "starter-geometry-67",
         "starter-geometry-6f",
-        "starter-geometry-7",
-        "starter-geometry-71",
-        "starter-geometry-77",
         "starter-geometry-7f",
         "starter-geometry-c",
         "starter-geometry-f",
@@ -11732,32 +11760,28 @@
       "files": [
         {
           "url": "approach-25.bin",
-          "bytes": 345040,
-          "sha256": "d98b931b4d87bcdaa37d14d654e74c7540fcc6e56d4d67229c5928664b624102",
-          "gzipBytes": 99230
+          "bytes": 63584,
+          "sha256": "66f01059116f8b405822c413c25279fa72d0725040b52d5d6128cb493b28dbbd",
+          "gzipBytes": 16322
         },
         {
           "url": "approach-25.json",
-          "bytes": 72511,
-          "sha256": "66664b9a9b8d7c3c57eeabcf48d4d68c86da5348377e73b4f6524270f2b54432",
-          "gzipBytes": 12215
+          "bytes": 43942,
+          "sha256": "1e72bc17b4b1115a7fba3455b32c2eaa5a45cc765cf7e52297bf8bdc8c07990c",
+          "gzipBytes": 7702
         }
       ]
     },
     "approach-40": {
       "index": "approach-40.json",
       "dependencies": [
-        "approach-1",
         "approach-10",
         "city-bus",
         "passengers",
         "starter-geometry-1",
-        "starter-geometry-1a",
         "starter-geometry-1d",
-        "starter-geometry-1e",
         "starter-geometry-2",
         "starter-geometry-22",
-        "starter-geometry-2e",
         "starter-geometry-2f",
         "starter-geometry-3f",
         "starter-geometry-41",
@@ -11771,7 +11795,7 @@
         "starter-geometry-77",
         "starter-geometry-7f",
         "starter-geometry-8",
-        "starter-geometry-c",
+        "starter-geometry-9",
         "starter-geometry-d",
         "starter-geometry-f",
         "starter-materials",
@@ -11787,49 +11811,28 @@
         },
         {
           "url": "approach-40.json",
-          "bytes": 309943,
-          "sha256": "ae61b308fc31aee65fb66ec1b2e591f589a76671590f7df2d1bb3cb1058a8128",
-          "gzipBytes": 37192
+          "bytes": 309961,
+          "sha256": "28e404954698643d556f50a4240982968a3323bea9400549bb1952c11096e65f",
+          "gzipBytes": 37186
         }
       ]
     },
     "approach-5": {
       "index": "approach-5.json",
       "dependencies": [
-        "approach-1",
         "city-bus",
-        "passengers",
-        "starter-geometry-18",
-        "starter-geometry-1a",
-        "starter-geometry-1d",
-        "starter-geometry-2",
-        "starter-geometry-27",
-        "starter-geometry-2e",
+        "starter-geometry-1",
         "starter-geometry-2f",
-        "starter-geometry-3f",
-        "starter-geometry-5",
         "starter-geometry-6f",
-        "starter-geometry-7f",
-        "starter-geometry-8",
-        "starter-geometry-c",
-        "starter-geometry-d",
-        "starter-geometry-f",
         "starter-materials",
-        "starter-small-geometry",
-        "traffic"
+        "starter-small-geometry"
       ],
       "files": [
         {
-          "url": "approach-5.bin",
-          "bytes": 207920,
-          "sha256": "ed3092b637fc8a6f61d8d6a050284cb7afb308a0c6080d311b770b217dacb21b",
-          "gzipBytes": 54595
-        },
-        {
           "url": "approach-5.json",
-          "bytes": 213816,
-          "sha256": "cdc99b4d4487c58af21af6942f584ed5e636dace39bcf27afbb01f0a61161954",
-          "gzipBytes": 26182
+          "bytes": 8416,
+          "sha256": "2bad307ee05dec209cc3a0e8df30e893a0bc10be1f4083d10dae8ea9e3345f20",
+          "gzipBytes": 2436
         }
       ]
     },
@@ -11856,7 +11859,7 @@
         "starter-geometry-6f",
         "starter-geometry-77",
         "starter-geometry-7f",
-        "starter-geometry-c",
+        "starter-geometry-d",
         "starter-geometry-f",
         "starter-materials",
         "starter-small-geometry",
@@ -11872,7 +11875,7 @@
         {
           "url": "approach-60.json",
           "bytes": 118616,
-          "sha256": "fccac2dc474c50fea448c963d7b906225d50059019aca7f1e39026ab44afa699",
+          "sha256": "1c5954f294599450cf18c32a45cda93112a5e3a9ab80d354e39f6c484bbdd8be",
           "gzipBytes": 17700
         }
       ]
@@ -11934,7 +11937,7 @@
         "starter-geometry-10",
         "starter-geometry-16",
         "starter-geometry-18",
-        "starter-geometry-1a",
+        "starter-geometry-19",
         "starter-geometry-1d",
         "starter-geometry-2",
         "starter-geometry-27",
@@ -11951,7 +11954,8 @@
         "starter-geometry-77",
         "starter-geometry-7f",
         "starter-geometry-8",
-        "starter-geometry-c",
+        "starter-geometry-9",
+        "starter-geometry-d",
         "starter-geometry-f",
         "starter-materials",
         "starter-small-geometry",
@@ -11966,35 +11970,9 @@
         },
         {
           "url": "approach-8.json",
-          "bytes": 247296,
-          "sha256": "4c4c2e1c8e09e5a8d82358535c238c81bf44bfc048051e971c221b3e310285e6",
-          "gzipBytes": 38833
-        }
-      ]
-    },
-    "approach-9": {
-      "index": "approach-9.json",
-      "dependencies": [
-        "approach-5",
-        "city-bus",
-        "starter-geometry-18",
-        "starter-geometry-1a",
-        "starter-geometry-1d",
-        "starter-geometry-2f",
-        "starter-geometry-3f",
-        "starter-geometry-6f",
-        "starter-geometry-7f",
-        "starter-geometry-c",
-        "starter-geometry-d",
-        "starter-materials",
-        "starter-small-geometry"
-      ],
-      "files": [
-        {
-          "url": "approach-9.json",
-          "bytes": 12333,
-          "sha256": "861c59acd9de7d17385cd66dd2698672eeeeffb7a33f83c7972fa1ade726c7ae",
-          "gzipBytes": 2643
+          "bytes": 245694,
+          "sha256": "35a5603aab1e398f82f25ccc6815d8d7a77fa835d3c3042d749974bd76748599",
+          "gzipBytes": 38402
         }
       ]
     },
@@ -12003,7 +11981,7 @@
       "dependencies": [
         "city-bus",
         "passengers",
-        "starter-geometry-2e",
+        "starter-geometry-2f",
         "starter-geometry-5",
         "starter-geometry-65",
         "starter-geometry-67",
@@ -12016,7 +11994,7 @@
         {
           "url": "approach-a.json",
           "bytes": 13233,
-          "sha256": "d2b0257b3704a781b94d586761b190755b0d30fbb6a8731200b81ade3dabe9fe",
+          "sha256": "cc2ceb9de7315d6b88c8b094eec25f3d39f90a1f381f34210a4880a4cbcb92d1",
           "gzipBytes": 2746
         }
       ]
@@ -12032,36 +12010,6 @@
           "bytes": 1699,
           "sha256": "f853249c2f9ca962342de277f2cad2a72d4da4b1e796b771f84f9e7526b01dc2",
           "gzipBytes": 661
-        }
-      ]
-    },
-    "approach-d": {
-      "index": "approach-d.json",
-      "dependencies": [
-        "city-bus",
-        "passengers",
-        "starter-geometry-2f",
-        "starter-geometry-3f",
-        "starter-geometry-7f",
-        "starter-geometry-8",
-        "starter-geometry-c",
-        "starter-geometry-d",
-        "starter-materials",
-        "starter-small-geometry",
-        "traffic"
-      ],
-      "files": [
-        {
-          "url": "approach-d.bin",
-          "bytes": 911880,
-          "sha256": "e8fd5a1e36e6364df065c6807b1f1e2ef27ac19ba0a86e01005d7f49b5cb4633",
-          "gzipBytes": 235215
-        },
-        {
-          "url": "approach-d.json",
-          "bytes": 46184,
-          "sha256": "04ab434575e59d216c585e1b244271115823410b4ef3776e6123d4084a82c886",
-          "gzipBytes": 6938
         }
       ]
     },
@@ -12088,9 +12036,9 @@
     "corridor-10": {
       "index": "corridor-10.json",
       "dependencies": [
-        "approach-25",
         "city-bus",
         "passengers",
+        "starter-geometry-1",
         "starter-geometry-10",
         "starter-geometry-2",
         "starter-geometry-2f",
@@ -12102,29 +12050,9 @@
       "files": [
         {
           "url": "corridor-10.json",
-          "bytes": 5674,
-          "sha256": "3634d3a4dbf9468e1d53e38c689fc42d6a9a2659d48b1e3aae4bf20345e9ddce",
-          "gzipBytes": 1599
-        }
-      ]
-    },
-    "corridor-15": {
-      "index": "corridor-15.json",
-      "dependencies": [
-        "city-bus",
-        "starter-geometry-1d",
-        "starter-geometry-26",
-        "starter-geometry-3f",
-        "starter-geometry-c",
-        "starter-materials",
-        "starter-small-geometry"
-      ],
-      "files": [
-        {
-          "url": "corridor-15.json",
-          "bytes": 5711,
-          "sha256": "9758efef2784b6a199cfee1554287a71e4f550f3357ef69a0695d40eff70b4ba",
-          "gzipBytes": 887
+          "bytes": 5681,
+          "sha256": "1be07e9fa45fd3053aad03afb102708b5bfbc90e7112d0a2f76f61868c15f0b0",
+          "gzipBytes": 1589
         }
       ]
     },
@@ -12137,7 +12065,7 @@
         "passengers",
         "starter-geometry-10",
         "starter-geometry-18",
-        "starter-geometry-1a",
+        "starter-geometry-19",
         "starter-geometry-1d",
         "starter-geometry-2",
         "starter-geometry-25",
@@ -12153,7 +12081,9 @@
         "starter-geometry-77",
         "starter-geometry-7f",
         "starter-geometry-8",
+        "starter-geometry-9",
         "starter-geometry-c",
+        "starter-geometry-d",
         "starter-geometry-f",
         "starter-materials",
         "starter-small-geometry",
@@ -12168,9 +12098,9 @@
         },
         {
           "url": "corridor-18.json",
-          "bytes": 921306,
-          "sha256": "6d6db91ad40339dd92973ccb7e6243df14be352584b055c928cef5ee3f5b13e7",
-          "gzipBytes": 151117
+          "bytes": 921302,
+          "sha256": "7c2ad8c8b6f488f2e0a9a7418c2442c1247f1957f3e90f91a8038d6baf4fc252",
+          "gzipBytes": 151113
         },
         {
           "url": "textures/b3c7030edb17fe743b926469b5d25a45.png",
@@ -12215,7 +12145,6 @@
         "corridor-18",
         "passengers",
         "starter-geometry-18",
-        "starter-geometry-1a",
         "starter-geometry-1d",
         "starter-geometry-2",
         "starter-geometry-20",
@@ -12237,7 +12166,7 @@
         "starter-geometry-71",
         "starter-geometry-77",
         "starter-geometry-7f",
-        "starter-geometry-8",
+        "starter-geometry-9",
         "starter-geometry-d",
         "starter-materials",
         "starter-small-geometry",
@@ -12252,27 +12181,26 @@
         },
         {
           "url": "corridor-2.json",
-          "bytes": 450590,
-          "sha256": "632df879b65a0ea3de7c8a4b8cba46e676d0f794ed0132e0254f4c337e51ef4e",
-          "gzipBytes": 50311
+          "bytes": 450593,
+          "sha256": "fafe944234fac089d79cbbdac84de53d8fd68c0f032654dfd2cc0dea7bec021e",
+          "gzipBytes": 50310
         }
       ]
     },
     "corridor-40": {
       "index": "corridor-40.json",
       "dependencies": [
-        "approach-5",
         "approach-8",
         "city-bus",
         "corridor-18",
         "passengers",
+        "starter-geometry-1",
         "starter-geometry-10",
         "starter-geometry-18",
-        "starter-geometry-1a",
+        "starter-geometry-19",
         "starter-geometry-1d",
-        "starter-geometry-1e",
         "starter-geometry-2",
-        "starter-geometry-26",
+        "starter-geometry-27",
         "starter-geometry-2f",
         "starter-geometry-3f",
         "starter-geometry-5",
@@ -12281,6 +12209,7 @@
         "starter-geometry-6f",
         "starter-geometry-7f",
         "starter-geometry-8",
+        "starter-geometry-9",
         "starter-geometry-c",
         "starter-geometry-d",
         "starter-geometry-f",
@@ -12297,9 +12226,9 @@
         },
         {
           "url": "corridor-40.json",
-          "bytes": 4863377,
-          "sha256": "42174244973cb46c7c1a27ae97a8a45c1987cdf0af12a3d15b18cb7d2ed71f0f",
-          "gzipBytes": 337749
+          "bytes": 4863381,
+          "sha256": "bc9a88f9ed393b71cf164c53af775e9943e2769dcaa6b2c824ac71ecfc855289",
+          "gzipBytes": 337744
         },
         {
           "url": "textures/f82deba9d42ca904f9929144d4acae28.png",
@@ -12319,23 +12248,14 @@
       "index": "corridor-5.json",
       "dependencies": [
         "city-bus",
-        "starter-geometry-18",
-        "starter-geometry-1a",
-        "starter-geometry-1d",
-        "starter-geometry-1e",
-        "starter-geometry-3f",
-        "starter-geometry-7f",
-        "starter-geometry-c",
-        "starter-geometry-f",
-        "starter-materials",
-        "starter-small-geometry"
+        "starter-geometry-f"
       ],
       "files": [
         {
           "url": "corridor-5.json",
-          "bytes": 12359,
-          "sha256": "4d8bda12276dcbb39d22122460e5c487cb07dcf4a9aecff808f93213c5420af8",
-          "gzipBytes": 2969
+          "bytes": 438,
+          "sha256": "5b1fe3f0162fb548e0d433020445b17c2a60ba2280705118ce1a540dea2ea7e3",
+          "gzipBytes": 300
         }
       ]
     },
@@ -12347,15 +12267,15 @@
         "starter-geometry-6f",
         "starter-geometry-77",
         "starter-geometry-7f",
-        "starter-geometry-8",
+        "starter-geometry-9",
         "starter-materials"
       ],
       "files": [
         {
           "url": "corridor-8.json",
           "bytes": 4576,
-          "sha256": "456a636aecba1cbbb55b0f43a5bfa69e7c3e8a4fbef079113433103caac7c6a5",
-          "gzipBytes": 1222
+          "sha256": "4e27e8e38ce45619dae3ed469121a34144f5586f3565c077a98e3538d7ec3dee",
+          "gzipBytes": 1221
         }
       ]
     },
@@ -12368,7 +12288,6 @@
         "approach-20",
         "approach-21",
         "approach-40",
-        "approach-5",
         "approach-61",
         "approach-65",
         "approach-8",
@@ -12381,15 +12300,12 @@
         "starter-geometry-1",
         "starter-geometry-10",
         "starter-geometry-18",
-        "starter-geometry-1a",
+        "starter-geometry-19",
         "starter-geometry-1d",
-        "starter-geometry-1e",
         "starter-geometry-2",
         "starter-geometry-20",
         "starter-geometry-25",
-        "starter-geometry-26",
         "starter-geometry-27",
-        "starter-geometry-2e",
         "starter-geometry-2f",
         "starter-geometry-3",
         "starter-geometry-3f",
@@ -12408,6 +12324,7 @@
         "starter-geometry-77",
         "starter-geometry-7f",
         "starter-geometry-8",
+        "starter-geometry-9",
         "starter-geometry-c",
         "starter-geometry-d",
         "starter-geometry-e",
@@ -12425,9 +12342,9 @@
         },
         {
           "url": "world-view.json",
-          "bytes": 3703305,
-          "sha256": "c06f0016aed5c9b1a0f4428fda79c1af54c10e10bb17b3df6f1edbd1436163bb",
-          "gzipBytes": 426078
+          "bytes": 3703744,
+          "sha256": "797d9653188c9c390c114c691ad87f8ba8f9abcfe1248100415ae59475815474",
+          "gzipBytes": 426074
         },
         {
           "url": "textures/edc6d7f313d4e134ab772be31f0d0d92.png",
@@ -12442,7 +12359,7 @@
       "dependencies": [
         "city-bus",
         "corridor-40",
-        "starter-geometry-2",
+        "starter-geometry-3",
         "starter-geometry-67",
         "starter-geometry-7f",
         "starter-materials",
@@ -12458,7 +12375,7 @@
         {
           "url": "world-agents.json",
           "bytes": 24280,
-          "sha256": "e77da4d3e0ef585aa66cee023b41116756696057423ed71d703cf86857e5b2c9",
+          "sha256": "b6b05521c9f476085b36f5b1d28f79d5a648be39cab6ffa66179c57e7a8b2a75",
           "gzipBytes": 5077
         },
         {
@@ -12662,6 +12579,6 @@
       ]
     }
   },
-  "buildId": "c2096543037f2d1ae948",
-  "packageBase": "versions/c2096543037f2d1ae948/"
+  "buildId": "8fb0095bf40268aadd05",
+  "packageBase": "versions/8fb0095bf40268aadd05/"
 }
